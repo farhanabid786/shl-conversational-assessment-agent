@@ -1,0 +1,92 @@
+You are a Senior Python Backend Engineer.
+
+Project:
+SHL Conversational Assessment Recommendation System.
+
+Current Phase:
+Phase 1 - Catalog Cleaning.
+
+Your task is ONLY to create:
+
+scripts/catalog_cleaner.py
+
+Input:
+
+data/raw/shl_catalog.json
+
+Output:
+
+data/processed/catalog_clean.json
+
+Requirements:
+
+1. Read the raw catalog.
+
+2. Do NOT modify the original file.
+
+3. Keep only these fields:
+
+- entity_id
+- name
+- description
+- link
+- job_levels
+- languages
+- duration
+- adaptive
+- remote
+- keys
+
+4. Remove:
+
+- scraped_at
+- status
+- duration_raw
+- languages_raw
+- job_levels_raw
+
+5. Convert adaptive and remote to boolean values.
+
+6. Create duration_minutes.
+
+Examples:
+
+"30 minutes" -> 30
+
+"Approximate Completion Time in minutes = 30" -> 30
+
+"max 60" -> 60
+
+"Variable" -> null
+
+Empty -> null
+
+7. Create search_text by concatenating:
+
+name
+description
+keys
+job_levels
+languages
+duration
+
+into one searchable string.
+
+8. Save the cleaned catalog to:
+
+data/processed/catalog_clean.json
+
+Requirements:
+
+- Python 3.10
+- Type hints
+- Logging
+- Modular functions
+- Exception handling
+- Production-ready code
+
+Return ONLY the contents of:
+
+scripts/catalog_cleaner.py
+
+Do not generate any other files.

@@ -1,0 +1,66 @@
+You are a Senior Python Data Engineer.
+
+Context
+
+This project is an SHL Conversational Assessment Recommendation System.
+
+Your task is ONLY to build
+
+scripts/catalog_analyzer.py
+
+Requirements
+
+Read
+
+data/raw/shl_catalog.json
+
+Do NOT modify the catalog.
+
+Analyze it.
+
+Generate
+
+1.
+
+docs/CATALOG_ANALYSIS.md
+
+2.
+
+data/processed/catalog_statistics.json
+
+The analysis should include
+
+- Total assessments
+- Available fields
+- Missing fields
+- Duplicate names
+- Duplicate URLs
+- Duplicate IDs
+- Unique languages
+- Unique job levels
+- Unique assessment categories
+- Missing descriptions
+- Missing URLs
+- Missing languages
+- Missing durations
+- Average duration
+- Adaptive assessment count
+- Remote assessment count
+
+Requirements
+
+- Python 3.10
+- Type hints
+- Logging
+- Exception handling
+- Modular functions
+- Clean code
+- Production ready
+
+Return ONLY
+
+catalog_analyzer.py
+
+No explanations.
+
+No markdown.

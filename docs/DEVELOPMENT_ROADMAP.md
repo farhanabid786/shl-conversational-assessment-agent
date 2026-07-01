@@ -1,48 +1,64 @@
-# Development Roadmap
+Phase 0 ✅
 
-Phase 0
+↓
 
-Environment
+Phase 1 ✅
 
-Phase 1
+↓
 
-Catalog Analysis
-
-Phase 2
+▶ Phase 2
 
 Metadata Generation
+
+↓
 
 Phase 3
 
 Embeddings
 
+↓
+
 Phase 4
 
-Conversation Parser
+Retriever
+
+↓
 
 Phase 5
 
-Retriever
+Conversation Parser
+
+↓
 
 Phase 6
 
 Decision Engine
 
+↓
+
 Phase 7
 
 FastAPI
+
+↓
 
 Phase 8
 
 Prompt Engineering
 
+↓
+
 Phase 9
 
 Testing
 
+↓
+
 Phase 10
 
 Deployment
+
+↓
 
 Phase 11
 

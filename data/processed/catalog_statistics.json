@@ -1,0 +1,501 @@
+{
+  "total_assessments": 377,
+  "available_fields": [
+    "adaptive",
+    "description",
+    "duration",
+    "duration_raw",
+    "entity_id",
+    "job_levels",
+    "job_levels_raw",
+    "keys",
+    "languages",
+    "languages_raw",
+    "link",
+    "name",
+    "remote",
+    "scraped_at",
+    "status"
+  ],
+  "field_presence_counts": {
+    "adaptive": 377,
+    "description": 377,
+    "duration": 316,
+    "duration_raw": 315,
+    "entity_id": 377,
+    "job_levels": 358,
+    "job_levels_raw": 358,
+    "keys": 377,
+    "languages": 340,
+    "languages_raw": 340,
+    "link": 377,
+    "name": 377,
+    "remote": 377,
+    "scraped_at": 377,
+    "status": 377
+  },
+  "records_with_missing_fields": 67,
+  "missing_fields_by_record": {
+    "4302": [
+      "languages",
+      "languages_raw",
+      "duration",
+      "duration_raw"
+    ],
+    "536": [
+      "job_levels",
+      "job_levels_raw"
+    ],
+    "4296": [
+      "job_levels",
+      "job_levels_raw"
+    ],
+    "3933": [
+      "job_levels",
+      "job_levels_raw"
+    ],
+    "3931": [
+      "job_levels",
+      "job_levels_raw"
+    ],
+    "4221": [
+      "languages",
+      "languages_raw",
+      "duration",
+      "duration_raw"
+    ],
+    "4239": [
+      "languages",
+      "languages_raw",
+      "duration",
+      "duration_raw"
+    ],
+    "1102": [
+      "job_levels",
+      "job_levels_raw",
+      "duration",
+      "duration_raw"
+    ],
+    "3856": [
+      "languages",
+      "languages_raw",
+      "duration",
+      "duration_raw"
+    ],
+    "4287": [
+      "languages",
+      "languages_raw",
+      "duration",
+      "duration_raw"
+    ],
+    "3849": [
+      "languages",
+      "languages_raw",
+      "duration",
+      "duration_raw"
+    ],
+    "3899": [
+      "languages",
+      "languages_raw",
+      "duration",
+      "duration_raw"
+    ],
+    "4301": [
+      "job_levels",
+      "job_levels_raw"
+    ],
+    "3900": [
+      "languages",
+      "languages_raw",
+      "duration",
+      "duration_raw"
+    ],
+    "3901": [
+      "languages",
+      "languages_raw",
+      "duration",
+      "duration_raw"
+    ],
+    "3845": [
+      "job_levels",
+      "job_levels_raw",
+      "languages",
+      "languages_raw",
+      "duration",
+      "duration_raw"
+    ],
+    "4284": [
+      "job_levels",
+      "job_levels_raw",
+      "languages",
+      "languages_raw",
+      "duration",
+      "duration_raw"
+    ],
+    "4285": [
+      "job_levels",
+      "job_levels_raw",
+      "languages",
+      "languages_raw",
+      "duration",
+      "duration_raw"
+    ],
+    "3903": [
+      "languages",
+      "languages_raw",
+      "duration",
+      "duration_raw"
+    ],
+    "3902": [
+      "languages",
+      "languages_raw",
+      "duration",
+      "duration_raw"
+    ],
+    "3904": [
+      "languages",
+      "languages_raw",
+      "duration",
+      "duration_raw"
+    ],
+    "3951": [
+      "job_levels",
+      "job_levels_raw",
+      "languages",
+      "languages_raw",
+      "duration",
+      "duration_raw"
+    ],
+    "3950": [
+      "job_levels",
+      "job_levels_raw",
+      "languages",
+      "languages_raw",
+      "duration",
+      "duration_raw"
+    ],
+    "3949": [
+      "job_levels",
+      "job_levels_raw",
+      "languages",
+      "languages_raw",
+      "duration",
+      "duration_raw"
+    ],
+    "3948": [
+      "job_levels",
+      "job_levels_raw",
+      "languages",
+      "languages_raw",
+      "duration",
+      "duration_raw"
+    ],
+    "1308": [
+      "duration",
+      "duration_raw"
+    ],
+    "1306": [
+      "duration",
+      "duration_raw"
+    ],
+    "1309": [
+      "duration",
+      "duration_raw"
+    ],
+    "1048": [
+      "duration",
+      "duration_raw"
+    ],
+    "727": [
+      "duration",
+      "duration_raw"
+    ],
+    "4298": [
+      "job_levels",
+      "job_levels_raw",
+      "languages",
+      "languages_raw",
+      "duration",
+      "duration_raw"
+    ],
+    "748": [
+      "duration",
+      "duration_raw"
+    ],
+    "749": [
+      "duration",
+      "duration_raw"
+    ],
+    "750": [
+      "duration",
+      "duration_raw"
+    ],
+    "4300": [
+      "languages",
+      "languages_raw",
+      "duration",
+      "duration_raw"
+    ],
+    "752": [
+      "duration",
+      "duration_raw"
+    ],
+    "754": [
+      "duration",
+      "duration_raw"
+    ],
+    "753": [
+      "duration",
+      "duration_raw"
+    ],
+    "4307": [
+      "languages",
+      "languages_raw",
+      "duration",
+      "duration_raw"
+    ],
+    "1050": [
+      "duration",
+      "duration_raw"
+    ],
+    "1060": [
+      "duration",
+      "duration_raw"
+    ],
+    "1059": [
+      "duration",
+      "duration_raw"
+    ],
+    "1058": [
+      "duration",
+      "duration_raw"
+    ],
+    "1061": [
+      "duration",
+      "duration_raw"
+    ],
+    "756": [
+      "duration",
+      "duration_raw"
+    ],
+    "757": [
+      "duration",
+      "duration_raw"
+    ],
+    "4286": [
+      "languages",
+      "languages_raw",
+      "duration",
+      "duration_raw"
+    ],
+    "758": [
+      "duration",
+      "duration_raw"
+    ],
+    "4289": [
+      "languages",
+      "languages_raw",
+      "duration",
+      "duration_raw"
+    ],
+    "1067": [
+      "duration",
+      "duration_raw"
+    ],
+    "759": [
+      "duration",
+      "duration_raw"
+    ],
+    "3746": [
+      "duration",
+      "duration_raw"
+    ],
+    "3484": [
+      "duration",
+      "duration_raw"
+    ],
+    "4202": [
+      "languages",
+      "languages_raw",
+      "duration",
+      "duration_raw"
+    ],
+    "4203": [
+      "languages",
+      "languages_raw",
+      "duration",
+      "duration_raw"
+    ],
+    "4230": [
+      "languages",
+      "languages_raw",
+      "duration",
+      "duration_raw"
+    ],
+    "4283": [
+      "languages",
+      "languages_raw",
+      "duration",
+      "duration_raw"
+    ],
+    "4233": [
+      "languages",
+      "languages_raw",
+      "duration",
+      "duration_raw"
+    ],
+    "4288": [
+      "languages",
+      "languages_raw",
+      "duration",
+      "duration_raw"
+    ],
+    "4282": [
+      "job_levels",
+      "job_levels_raw",
+      "languages",
+      "languages_raw",
+      "duration_raw"
+    ],
+    "735": [
+      "duration",
+      "duration_raw"
+    ],
+    "3945": [
+      "job_levels",
+      "job_levels_raw",
+      "languages",
+      "languages_raw",
+      "duration",
+      "duration_raw"
+    ],
+    "3970": [
+      "job_levels",
+      "job_levels_raw",
+      "languages",
+      "languages_raw",
+      "duration",
+      "duration_raw"
+    ],
+    "3969": [
+      "job_levels",
+      "job_levels_raw",
+      "languages",
+      "languages_raw",
+      "duration",
+      "duration_raw"
+    ],
+    "3976": [
+      "job_levels",
+      "job_levels_raw",
+      "languages",
+      "languages_raw",
+      "duration",
+      "duration_raw"
+    ],
+    "3974": [
+      "languages",
+      "languages_raw",
+      "duration",
+      "duration_raw"
+    ],
+    "4297": [
+      "languages",
+      "languages_raw",
+      "duration",
+      "duration_raw"
+    ]
+  },
+  "duplicates": {
+    "duplicate_names": {},
+    "duplicate_urls": {},
+    "duplicate_ids": {}
+  },
+  "unique_languages": {
+    "count": 42,
+    "values": [
+      "Arabic",
+      "Chinese Simplified",
+      "Chinese Traditional",
+      "Czech",
+      "Danish",
+      "Dutch",
+      "English (Australia)",
+      "English (Canada)",
+      "English (South Africa)",
+      "English (USA)",
+      "English International",
+      "Estonian",
+      "Finnish",
+      "Flemish",
+      "French",
+      "French (Belgium)",
+      "French (Canada)",
+      "German",
+      "Greek",
+      "Hungarian",
+      "Icelandic",
+      "Indonesian",
+      "Italian",
+      "Japanese",
+      "Korean",
+      "Latin American Spanish",
+      "Latvian",
+      "Lithuanian",
+      "Malay",
+      "Norwegian",
+      "Polish",
+      "Portuguese",
+      "Portuguese (Brazil)",
+      "Romanian",
+      "Russian",
+      "Serbian",
+      "Slovak",
+      "Spanish",
+      "Swedish",
+      "Thai",
+      "Turkish",
+      "Vietnamese"
+    ]
+  },
+  "unique_job_levels": {
+    "count": 10,
+    "values": [
+      "Director",
+      "Entry-Level",
+      "Executive",
+      "Front Line Manager",
+      "General Population",
+      "Graduate",
+      "Manager",
+      "Mid-Professional",
+      "Professional Individual Contributor",
+      "Supervisor"
+    ]
+  },
+  "unique_categories": {
+    "count": 8,
+    "values": [
+      "Ability & Aptitude",
+      "Assessment Exercises",
+      "Biodata & Situational Judgment",
+      "Competencies",
+      "Development & 360",
+      "Knowledge & Skills",
+      "Personality & Behavior",
+      "Simulations"
+    ]
+  },
+  "missing_data": {
+    "missing_descriptions": 0,
+    "missing_urls": 0,
+    "missing_languages": 37,
+    "missing_durations": 61
+  },
+  "duration": {
+    "average_duration_minutes": 13.61,
+    "sample_size": 293
+  },
+  "adaptive_assessment_count": 37,
+  "remote_assessment_count": 377
+}
