@@ -107,3 +107,66 @@ The raw catalog is never modified.
 Knowledge Base Status
 
 Frozen
+
+# Phase 2 Summary
+
+The retrieval metadata layer has been successfully implemented.
+
+Outputs
+
+- catalog_metadata.json
+- metadata_generator.py
+
+The metadata layer is designed specifically for downstream retrieval.
+
+Each assessment now includes:
+
+- canonical_name
+- normalized_name
+- assessment_family
+- searchable_text
+- keywords
+- filter_tokens
+- ranking_tokens
+- duration_minutes
+- adaptive
+- remote
+- metadata_version
+
+The canonical knowledge base remains immutable.
+
+Current Retrieval Pipeline
+
+Raw Catalog
+
+↓
+
+Catalog Cleaner
+
+↓
+
+catalog_clean.json
+
+↓
+
+Metadata Generator
+
+↓
+
+catalog_metadata.json
+
+↓
+
+Embeddings
+
+↓
+
+FAISS
+
+↓
+
+BM25
+
+Status
+
+Frozen

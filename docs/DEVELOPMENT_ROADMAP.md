@@ -6,15 +6,13 @@ Phase 1 ✅
 
 ↓
 
-▶ Phase 2
-
-Metadata Generation
+Phase 2 ✅
 
 ↓
 
-Phase 3
+▶ Phase 3
 
-Embeddings
+Embedding Generation
 
 ↓
 
@@ -26,7 +24,7 @@ Retriever
 
 Phase 5
 
-Conversation Parser
+Conversation State Parser
 
 ↓
 

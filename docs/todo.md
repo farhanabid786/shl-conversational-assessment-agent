@@ -1,23 +1,41 @@
+# TODO
+
+## Completed
+
 ✅ Phase 0
 
 ✅ Phase 1
 
-⬜ Phase 2
+✅ Phase 2
 
-⬜ Phase 3
+---
 
-⬜ Phase 4
+## Current
 
-⬜ Phase 5
+🟡 Phase 3
 
-⬜ Phase 6
+Embedding Generation
 
-⬜ Phase 7
+---
 
-⬜ Phase 8
+## Pending
 
-⬜ Phase 9
+⬜ FAISS
 
-⬜ Phase 10
+⬜ BM25
 
-⬜ Phase 11
+⬜ Retriever
+
+⬜ Conversation Parser
+
+⬜ Decision Engine
+
+⬜ FastAPI
+
+⬜ Prompt Engineering
+
+⬜ Testing
+
+⬜ Deployment
+
+⬜ Final Documentation

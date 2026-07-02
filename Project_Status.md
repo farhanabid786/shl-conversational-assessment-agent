@@ -1,55 +1,87 @@
-# Project Status
+# SHL Conversational Assessment Recommendation System
 
 ## Current Phase
 
-Phase 2 – Metadata Generation
+🟡 Phase 3 – Embedding Generation
+
+---
 
 ## Overall Progress
 
-18%
+Completed: 3 / 11 Phases (≈27%)
 
-## Completed
+---
 
-✅ Phase 0
+## Completed Phases
 
-- Environment
+### ✅ Phase 0 – Project Setup
+
+- Environment Setup
+- Python 3.10.11
+- Virtual Environment
 - Folder Structure
-- Documentation
-- GitHub
 - Requirements
-- Planning
+- Documentation
+- GitHub Repository
+- Architecture Planning
 
-✅ Phase 1
+---
+
+### ✅ Phase 1 – Catalog Analysis & Knowledge Base
 
 - Catalog Download
 - Catalog Analysis
-- Catalog Statistics
+- Statistics Generation
+- Catalog Validation
 - Catalog Cleaning
-- Knowledge Base
-- search_text Generation
+- Search Text Generation
 - Duration Normalization
+- Boolean Normalization
+- catalog_clean.json Generated
+
+Status:
+Frozen
+
+---
+
+### ✅ Phase 2 – Metadata Generation
+
+- metadata_generator.py
+- catalog_metadata.json
+- Retrieval Metadata
+- Validation
+- Duplicate Detection
+- Keyword Generation
+- Filter Tokens
+- Ranking Tokens
+- Metadata Versioning
+
+Status:
+Frozen
+
+---
 
 ## Current Task
 
-Phase 2
+Phase 3
 
-Metadata Generation
+Embedding Generation
 
-## Next Module
+---
 
-scripts/metadata_generator.py
+## Upcoming Modules
+
+1. embedding_generator.py
+2. faiss_index_builder.py
+3. bm25_index_builder.py
+
+---
 
 ## Remaining Phases
 
-Phase 2
-
-Metadata
-
-↓
-
 Phase 3
 
-Embeddings
+Embedding Generation
 
 ↓
 
@@ -61,7 +93,7 @@ Retriever
 
 Phase 5
 
-Conversation Parser
+Conversation State Parser
 
 ↓
 
@@ -99,10 +131,8 @@ Phase 11
 
 Documentation
 
-## Deployment
+---
 
-Not Started
+Last Updated
 
-## Last Updated
-
-2026-07-01
+02 July 2026
