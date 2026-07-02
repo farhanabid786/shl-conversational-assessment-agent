@@ -1,6 +1,6 @@
 # TODO
 
-## Completed
+Completed
 
 ✅ Phase 0
 
@@ -8,25 +8,19 @@
 
 ✅ Phase 2
 
----
+✅ Phase 3
 
-## Current
+--------------------------------
 
-🟡 Phase 3
+Current
 
-Embedding Generation
+🟡 Phase 4
 
----
+Hybrid Retriever
 
-## Pending
+--------------------------------
 
-⬜ FAISS
-
-⬜ BM25
-
-⬜ Retriever
-
-⬜ Conversation Parser
+Pending
 
 ⬜ Decision Engine
 
@@ -38,4 +32,6 @@ Embedding Generation
 
 ⬜ Deployment
 
-⬜ Final Documentation
+⬜ Documentation
+
+⬜ Final Submission

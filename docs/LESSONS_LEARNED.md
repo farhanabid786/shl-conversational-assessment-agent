@@ -40,3 +40,21 @@ Lessons Learned
 - Generate reusable filter tokens.
 - Preserve entity_id across every phase.
 - Validate metadata before writing.
+
+# Phase 3
+
+Lessons Learned
+
+• Metadata should be embedded instead of the raw catalog.
+
+• Normalize vectors before FAISS indexing.
+
+• Keep entity ordering deterministic.
+
+• Preserve embedding-to-entity mapping.
+
+• Use BM25 only on ranking_tokens.
+
+• Keep dense and sparse retrieval independent.
+
+• Freeze retrieval assets after validation.

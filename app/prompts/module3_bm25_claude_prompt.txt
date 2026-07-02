@@ -1,0 +1,53 @@
+
+Build ONLY:
+
+scripts/bm25_index_builder.py
+
+Do NOT generate any other file.
+
+Input:
+- data/processed/catalog_metadata.json
+
+Output:
+- data/cache/bm25_index.pkl
+
+Requirements
+
+Python 3.10.11
+
+Use rank_bm25.BM25Okapi.
+
+Use ONLY the 'ranking_tokens' field from catalog_metadata.json.
+
+Do NOT tokenize searchable_text again.
+Do NOT use keywords or filter_tokens.
+
+Validate:
+- metadata file exists
+- JSON is a non-empty array
+- every record has entity_id
+- every record has ranking_tokens
+- ranking_tokens is a non-empty list of strings
+- duplicate entity_id detection
+
+Build BM25 corpus preserving metadata order exactly.
+
+Save:
+- bm25_index.pkl
+
+The pickle should contain:
+{
+    "bm25": <BM25Okapi object>,
+    "entity_ids": [...],
+    "corpus_size": N
+}
+
+Use:
+- pathlib
+- logging
+- type hints
+- custom exceptions
+- modular functions
+- production-ready code
+
+Generate ONLY scripts/bm25_index_builder.py.

@@ -1,0 +1,100 @@
+Build ONLY the following file.
+
+scripts/embedding_generator.py
+
+Do NOT generate any other file.
+
+Context:
+
+We are building the SHL Conversational Assessment Recommendation System.
+
+Previous phases already exist.
+
+Do NOT modify:
+
+- catalog_clean.json
+- catalog_metadata.json
+
+They are frozen.
+
+Input
+
+data/processed/catalog_metadata.json
+
+Output
+
+data/embeddings/catalog_embeddings.npy
+
+Also generate
+
+data/embeddings/embedding_mapping.json
+
+Requirements
+
+Python 3.10.11
+
+SentenceTransformer
+
+Use model:
+
+sentence-transformers/all-MiniLM-L6-v2
+
+Generate embeddings ONLY from:
+
+searchable_text
+
+Never use raw catalog fields.
+
+Preserve metadata ordering exactly.
+
+Embedding row i must correspond to metadata record i.
+
+Save float32 numpy array.
+
+Save mapping:
+
+[
+  {
+    "row":0,
+    "entity_id":"4302",
+    "canonical_name":"..."
+  }
+]
+
+Requirements
+
+• modular architecture
+
+• logging
+
+• pathlib
+
+• type hints
+
+• tqdm progress bar
+
+• validation
+
+• custom exceptions
+
+• deterministic ordering
+
+• fail if searchable_text is missing
+
+• fail on duplicate entity_id
+
+• create output directories automatically
+
+• validate embedding dimensions
+
+• save numpy array
+
+• save mapping JSON
+
+• production-ready
+
+Do not build FAISS.
+
+Do not build BM25.
+
+Generate ONLY embedding_generator.py.

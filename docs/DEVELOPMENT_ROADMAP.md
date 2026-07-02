@@ -10,54 +10,40 @@ Phase 2 ✅
 
 ↓
 
-▶ Phase 3
-
-Embedding Generation
+Phase 3 ✅
 
 ↓
 
-Phase 4
+▶ Phase 4
 
-Retriever
+Hybrid Retriever
 
 ↓
 
 Phase 5
 
-Conversation State Parser
+Decision Engine
 
 ↓
 
 Phase 6
 
-Decision Engine
+FastAPI
 
 ↓
 
 Phase 7
 
-FastAPI
+Testing
 
 ↓
 
 Phase 8
 
-Prompt Engineering
-
-↓
-
-Phase 9
-
-Testing
-
-↓
-
-Phase 10
-
 Deployment
 
 ↓
 
-Phase 11
+Phase 9
 
 Documentation

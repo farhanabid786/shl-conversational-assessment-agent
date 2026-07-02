@@ -1,0 +1,48 @@
+Build ONLY:
+
+scripts/faiss_index_builder.py
+
+Input:
+- data/embeddings/catalog_embeddings.npy
+- data/embeddings/embedding_mapping.json
+
+Output:
+- data/faiss/catalog.index
+
+Requirements:
+
+Python 3.10.11
+
+Use FAISS IndexFlatIP.
+
+Load embeddings as float32.
+
+Normalize embeddings using faiss.normalize_L2() before indexing.
+
+Validate:
+- embeddings exist
+- mapping exists
+- row count matches mapping length
+- embeddings are 2D
+- no empty embedding matrix
+
+Create output directory automatically.
+
+Save index to:
+data/faiss/catalog.index
+
+Use:
+- pathlib
+- logging
+- type hints
+- custom exceptions
+- modular functions
+- production-ready structure
+
+Do NOT regenerate embeddings.
+
+Do NOT modify mapping.
+
+Do NOT build BM25.
+
+Generate ONLY scripts/faiss_index_builder.py.

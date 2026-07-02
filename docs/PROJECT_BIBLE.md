@@ -170,3 +170,75 @@ BM25
 Status
 
 Frozen
+
+# Phase 3 Summary
+
+The retrieval indexing pipeline has been completed.
+
+Outputs
+
+catalog_embeddings.npy
+
+embedding_mapping.json
+
+catalog.index
+
+bm25_index.pkl
+
+------------------------------------------------
+
+Pipeline
+
+catalog_clean.json
+
+↓
+
+catalog_metadata.json
+
+↓
+
+Embedding Generator
+
+↓
+
+FAISS Index
+
+↓
+
+BM25 Index
+
+------------------------------------------------
+
+Embedding Model
+
+sentence-transformers/all-MiniLM-L6-v2
+
+Similarity
+
+Cosine Similarity
+
+FAISS Index
+
+IndexFlatIP
+
+------------------------------------------------
+
+Current Retrieval Assets
+
+Knowledge Base
+
+Retrieval Metadata
+
+Dense Embeddings
+
+FAISS Index
+
+BM25 Index
+
+------------------------------------------------
+
+Status
+
+Frozen
+
+These assets should not be modified unless a genuine bug is discovered.

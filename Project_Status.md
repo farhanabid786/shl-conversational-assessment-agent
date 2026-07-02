@@ -1,138 +1,149 @@
 # SHL Conversational Assessment Recommendation System
 
-## Current Phase
+## Current Status
 
-🟡 Phase 3 – Embedding Generation
-
----
-
-## Overall Progress
-
-Completed: 3 / 11 Phases (≈27%)
+🟡 Phase 4 – Hybrid Retrieval
 
 ---
 
-## Completed Phases
+## Last Updated
 
-### ✅ Phase 0 – Project Setup
-
-- Environment Setup
-- Python 3.10.11
-- Virtual Environment
-- Folder Structure
-- Requirements
-- Documentation
-- GitHub Repository
-- Architecture Planning
+July 2026
 
 ---
 
-### ✅ Phase 1 – Catalog Analysis & Knowledge Base
+# Overall Progress
 
-- Catalog Download
-- Catalog Analysis
-- Statistics Generation
-- Catalog Validation
-- Catalog Cleaning
-- Search Text Generation
-- Duration Normalization
-- Boolean Normalization
-- catalog_clean.json Generated
+Completed Phases
 
-Status:
+✅ Phase 0
+
+Project Planning
+
+Environment Setup
+
+Folder Structure
+
+Documentation
+
+Architecture
+
+---
+
+✅ Phase 1
+
+Catalog Analysis
+
+Catalog Cleaning
+
+Knowledge Base Generation
+
+catalog_clean.json
+
 Frozen
 
 ---
 
-### ✅ Phase 2 – Metadata Generation
+✅ Phase 2
 
-- metadata_generator.py
-- catalog_metadata.json
-- Retrieval Metadata
-- Validation
-- Duplicate Detection
-- Keyword Generation
-- Filter Tokens
-- Ranking Tokens
-- Metadata Versioning
+Metadata Generation
 
-Status:
+catalog_metadata.json
+
 Frozen
 
 ---
 
-## Current Task
-
-Phase 3
+✅ Phase 3
 
 Embedding Generation
 
----
+FAISS Index Generation
 
-## Upcoming Modules
+BM25 Index Generation
 
-1. embedding_generator.py
-2. faiss_index_builder.py
-3. bm25_index_builder.py
+Frozen
 
 ---
 
-## Remaining Phases
+Current Phase
 
-Phase 3
+🟡 Phase 4
 
-Embedding Generation
+Hybrid Retrieval Engine
 
-↓
+---
+
+Upcoming Modules
+
+• hybrid_retriever.py
+
+• retrieval_utils.py
+
+• reranker.py (Optional)
+
+---
+
+Remaining Phases
 
 Phase 4
 
-Retriever
+Hybrid Retriever
 
 ↓
 
 Phase 5
 
-Conversation State Parser
+Decision Engine
 
 ↓
 
 Phase 6
 
-Decision Engine
+FastAPI Integration
 
 ↓
 
 Phase 7
 
-FastAPI
+Testing
 
 ↓
 
 Phase 8
 
-Prompt Engineering
+Deployment
 
 ↓
 
 Phase 9
 
-Testing
-
-↓
-
-Phase 10
-
-Deployment
-
-↓
-
-Phase 11
-
-Documentation
+Documentation & Submission
 
 ---
 
-Last Updated
+Overall Completion
 
-02 July 2026
+Approximately
+
+65%
+
+---
+
+Frozen Components
+
+catalog_clean.json
+
+catalog_metadata.json
+
+embedding_generator.py
+
+faiss_index_builder.py
+
+bm25_index_builder.py
+
+---
+
+Next Objective
+
+Build a production-ready Hybrid Retrieval Engine optimized for Recall@10.
