@@ -123,7 +123,9 @@ If multiple approaches exist, choose the one most likely to maximize SHL evaluat
 
 Always continue from the current phase instead of restarting.
 
-# Current Project State
+
+
+# Current Project Context
 
 Completed
 
@@ -135,17 +137,19 @@ Completed
 
 ✅ Phase 3
 
+✅ Phase 4
+
 --------------------------------
 
 Current Phase
 
-Phase 4
+Phase 5
 
-Hybrid Retrieval
+Gemini Decision Layer
 
 --------------------------------
 
-Frozen Components
+Frozen Assets
 
 catalog_clean.json
 
@@ -159,44 +163,56 @@ catalog.index
 
 bm25_index.pkl
 
+--------------------------------
+
+Frozen Modules
+
+catalog_analyzer.py
+
+catalog_cleaner.py
+
+metadata_generator.py
+
 embedding_generator.py
 
 faiss_index_builder.py
 
 bm25_index_builder.py
 
+retriever_loader.py
+
+hybrid_retriever.py
+
+fusion.py
+
+metadata_filter.py
+
 --------------------------------
 
 Next Modules
 
-hybrid_retriever.py
+conversation_parser.py
 
-retrieval_utils.py
+decision_engine.py
 
-reranker.py (Optional)
+prompt_builder.py
 
---------------------------------
-
-Current Retrieval Stack
-
-Sentence Transformers
-
-FAISS
-
-BM25
-
-Gemini Flash
-
-FastAPI
+response_formatter.py
 
 --------------------------------
 
-Primary Optimization Target
+Primary Optimization Goals
 
 Recall@10
 
 Grounded Recommendations
 
-Low Latency
+Clarification
+
+Comparison
+
+Refinement
 
 Schema Compliance
+
+Low Latency

@@ -1,47 +1,29 @@
 # Submission Checklist
 
-Backend
+Completed
 
-[ ] /health
+✅ Knowledge Base
 
-[ ] /chat
+✅ Metadata
 
-Schema
+✅ Embeddings
 
-[ ] reply
+✅ FAISS
 
-[ ] recommendations
+✅ BM25
 
-[ ] end_of_conversation
+✅ Hybrid Retrieval
 
-Behavior
+Pending
 
-[ ] Clarify
+⬜ Gemini Decision Layer
 
-[ ] Recommend
+⬜ FastAPI
 
-[ ] Compare
+⬜ End-to-End Testing
 
-[ ] Refine
+⬜ Deployment
 
-[ ] Refuse
+⬜ Documentation Review
 
-Evaluation
-
-[ ] Recall@10
-
-[ ] Behavior Probes
-
-Deployment
-
-[ ] Render
-
-Documentation
-
-[ ] README
-
-[ ] Approach PDF
-
-GitHub
-
-[ ] Public Repository
+⬜ Final Submission

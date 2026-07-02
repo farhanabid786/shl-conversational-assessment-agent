@@ -58,3 +58,22 @@ Lessons Learned
 • Keep dense and sparse retrieval independent.
 
 • Freeze retrieval assets after validation.
+
+# Phase 4
+
+Lessons Learned
+
+• Separate retrieval from reasoning.
+
+• Use Reciprocal Rank Fusion instead of score averaging.
+
+• Keep retrieval deterministic.
+
+• Metadata filtering should occur after fusion.
+
+• Entity lookup should be O(1).
+
+• Gemini should never retrieve directly.
+
+• The LLM should operate only on retrieved candidates.
+

@@ -1,96 +1,97 @@
 # SHL Conversational Assessment Recommendation System
 
-## Current Status
+## Project Status Report
 
-🟡 Phase 4 – Hybrid Retrieval
+Version: v0.4
 
----
-
-## Last Updated
-
-July 2026
+Last Updated: July 2026
 
 ---
 
-# Overall Progress
+## Current Phase
 
-Completed Phases
-
-✅ Phase 0
-
-Project Planning
-
-Environment Setup
-
-Folder Structure
-
-Documentation
-
-Architecture
+🟡 Phase 5 — Gemini Decision Layer
 
 ---
 
-✅ Phase 1
+## Overall Progress
 
-Catalog Analysis
+| Phase | Status |
+|--------|--------|
+| Phase 0 | ✅ Completed |
+| Phase 1 | ✅ Completed |
+| Phase 2 | ✅ Completed |
+| Phase 3 | ✅ Completed |
+| Phase 4 | ✅ Completed |
+| Phase 5 | 🟡 In Progress |
+| Phase 6 | ⬜ Pending |
+| Phase 7 | ⬜ Pending |
 
-Catalog Cleaning
+Overall Completion
 
-Knowledge Base Generation
+Approximately 75%
+
+---
+
+## Frozen Components
+
+### Phase 1
 
 catalog_clean.json
 
-Frozen
+catalog_analyzer.py
+
+catalog_cleaner.py
 
 ---
 
-✅ Phase 2
-
-Metadata Generation
+### Phase 2
 
 catalog_metadata.json
 
-Frozen
+metadata_generator.py
 
 ---
 
-✅ Phase 3
+### Phase 3
 
-Embedding Generation
+embedding_generator.py
 
-FAISS Index Generation
+faiss_index_builder.py
 
-BM25 Index Generation
+bm25_index_builder.py
 
-Frozen
+catalog_embeddings.npy
 
----
+embedding_mapping.json
 
-Current Phase
+catalog.index
 
-🟡 Phase 4
-
-Hybrid Retrieval Engine
+bm25_index.pkl
 
 ---
 
-Upcoming Modules
+### Phase 4
 
-• hybrid_retriever.py
+retriever_loader.py
 
-• retrieval_utils.py
+hybrid_retriever.py
 
-• reranker.py (Optional)
+fusion.py
+
+metadata_filter.py
 
 ---
 
-Remaining Phases
+## Current Goal
 
-Phase 4
+Build the Gemini Decision Layer.
 
-Hybrid Retriever
+This layer converts retrieved candidates into structured SHL recommendations.
 
-↓
+---
+
+## Remaining Roadmap
 
 Phase 5
 
@@ -100,7 +101,7 @@ Decision Engine
 
 Phase 6
 
-FastAPI Integration
+FastAPI
 
 ↓
 
@@ -110,40 +111,12 @@ Testing
 
 ↓
 
-Phase 8
-
 Deployment
 
 ↓
 
-Phase 9
+Documentation
 
-Documentation & Submission
+↓
 
----
-
-Overall Completion
-
-Approximately
-
-65%
-
----
-
-Frozen Components
-
-catalog_clean.json
-
-catalog_metadata.json
-
-embedding_generator.py
-
-faiss_index_builder.py
-
-bm25_index_builder.py
-
----
-
-Next Objective
-
-Build a production-ready Hybrid Retrieval Engine optimized for Recall@10.
+Submission

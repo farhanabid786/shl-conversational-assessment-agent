@@ -14,21 +14,19 @@ Phase 3 ✅
 
 ↓
 
-▶ Phase 4
-
-Hybrid Retriever
+Phase 4 ✅
 
 ↓
 
-Phase 5
+▶ Phase 5
 
-Decision Engine
+Gemini Decision Layer
 
 ↓
 
 Phase 6
 
-FastAPI
+FastAPI Integration
 
 ↓
 
@@ -38,12 +36,8 @@ Testing
 
 ↓
 
-Phase 8
-
 Deployment
 
 ↓
-
-Phase 9
 
 Documentation

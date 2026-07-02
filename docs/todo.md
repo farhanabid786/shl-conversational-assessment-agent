@@ -10,23 +10,29 @@ Completed
 
 ✅ Phase 3
 
+✅ Phase 4
+
 --------------------------------
 
 Current
 
-🟡 Phase 4
+🟡 Phase 5
 
-Hybrid Retriever
+Gemini Decision Layer
 
 --------------------------------
 
 Pending
 
+⬜ Conversation Parser
+
 ⬜ Decision Engine
 
-⬜ FastAPI
+⬜ Prompt Builder
 
-⬜ Prompt Engineering
+⬜ Response Formatter
+
+⬜ FastAPI
 
 ⬜ Testing
 
