@@ -142,7 +142,7 @@ def _build_response(
 
 
 @router.post(
-    "/recommend",
+    "/chat",
     response_model=RecommendationResponse,
     responses={
         400: {"model": ErrorResponse},
