@@ -12,32 +12,34 @@ Completed
 
 ✅ Phase 4
 
---------------------------------
+✅ Phase 5
+
+---
 
 Current
 
-🟡 Phase 5
+🟡 Phase 6
 
-Gemini Decision Layer
+FastAPI Integration
 
---------------------------------
+---
 
 Pending
 
-⬜ Conversation Parser
+⬜ API Schemas
 
-⬜ Decision Engine
+⬜ Startup Loader
 
-⬜ Prompt Builder
+⬜ Gemini Client
 
-⬜ Response Formatter
+⬜ /recommend Endpoint
 
-⬜ FastAPI
+⬜ Health Endpoint
+
+⬜ Error Handling
 
 ⬜ Testing
 
 ⬜ Deployment
-
-⬜ Documentation
 
 ⬜ Final Submission

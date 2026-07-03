@@ -18,13 +18,11 @@ Phase 4 ✅
 
 ↓
 
-▶ Phase 5
-
-Gemini Decision Layer
+Phase 5 ✅
 
 ↓
 
-Phase 6
+▶ Phase 6
 
 FastAPI Integration
 
@@ -36,8 +34,6 @@ Testing
 
 ↓
 
+Phase 8
+
 Deployment
-
-↓
-
-Documentation

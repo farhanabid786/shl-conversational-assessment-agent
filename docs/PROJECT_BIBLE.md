@@ -1,155 +1,70 @@
-# SHL Conversational Assessment Recommender
+# SHL Conversational Assessment Recommendation System
 
-## Project Objective
+## Project Bible
 
-Build a conversational AI agent that recommends only SHL Individual Test Solutions.
-
-The agent must:
-
-- Ask clarification questions when context is insufficient.
-- Recommend between 1 and 10 assessments.
-- Compare assessments.
-- Refine recommendations.
-- Refuse off-topic or unsafe requests.
-- Never hallucinate.
-- Never recommend outside the SHL catalog.
+Version: v0.5
 
 ---
 
-# Technology Stack
+# Vision
 
-Backend
+Build a production-quality conversational assessment recommendation system for the SHL AI Intern Assignment.
 
-- Python 3.10.11
-- FastAPI
+The system is designed as an Agentic Retrieval Pipeline rather than a traditional chatbot.
+
+Primary objectives:
+
+- Recommend only assessments from the official SHL catalog.
+- Maximize Recall@10.
+- Never hallucinate.
+- Support recommendation, comparison, clarification, refinement, and refusal.
+- Produce deterministic behavior before invoking Gemini.
+- Keep latency low for automated evaluation.
+- Maintain a modular, production-ready architecture.
+
+---
+
+# Core Design Principles
+
+## Grounded Retrieval
+
+Every recommendation originates from the SHL catalog.
+
+Gemini never invents assessments.
+
+---
+
+## Separation of Responsibilities
+
+Knowledge Base
+
+↓
 
 Retrieval
 
-- Sentence Transformers
-- FAISS
-- BM25
+↓
+
+Decision Logic
+
+↓
+
+Prompt Construction
+
+↓
 
 LLM
 
-- Gemini 2.5 Flash
+↓
 
-Deployment
+API
 
-- Render
+Each layer has a single responsibility.
 
 ---
 
-# Evaluation Targets
-
-Must Pass
-
-- Schema Validation
-- Behavior Probes
-- Recall@10
-- Hidden Test Conversations
-
----
-
-# Architecture
-
-Conversation
-
-↓
-
-Conversation Parser
-
-↓
-
-Decision Engine
-
-↓
-
-Retriever
-
-↓
-
-Gemini Flash
-
-↓
-
-JSON Response
-
----
-
-# Core Principles
-
-- Stateless API
-- Retrieval Augmented
-- Grounded Responses
-- No Hallucinations
-- Modular Code
-- Production Ready
-
-## Phase 1 Summary
-
-The SHL Product Catalog has been analyzed and transformed into a clean knowledge base.
-
-Outputs
-
-- catalog_statistics.json
-- catalog_clean.json
-- CATALOG_ANALYSIS.md
-
-The cleaned catalog contains
-
-- normalized durations
-- normalized boolean fields
-- search_text
-- retrieval-ready records
-
-The raw catalog is never modified.
-
-Knowledge Base Status
-
-Frozen
-
-# Phase 2 Summary
-
-The retrieval metadata layer has been successfully implemented.
-
-Outputs
-
-- catalog_metadata.json
-- metadata_generator.py
-
-The metadata layer is designed specifically for downstream retrieval.
-
-Each assessment now includes:
-
-- canonical_name
-- normalized_name
-- assessment_family
-- searchable_text
-- keywords
-- filter_tokens
-- ranking_tokens
-- duration_minutes
-- adaptive
-- remote
-- metadata_version
-
-The canonical knowledge base remains immutable.
-
-Current Retrieval Pipeline
-
-Raw Catalog
-
-↓
-
-Catalog Cleaner
-
-↓
+## Frozen Data Pipeline
 
 catalog_clean.json
-
-↓
-
-Metadata Generator
 
 ↓
 
@@ -167,158 +82,200 @@ FAISS
 
 BM25
 
-Status
+↓
 
-Frozen
-
-# Phase 3 Summary
-
-The retrieval indexing pipeline has been completed.
-
-Outputs
-
-catalog_embeddings.npy
-
-embedding_mapping.json
-
-catalog.index
-
-bm25_index.pkl
-
-------------------------------------------------
-
-Pipeline
-
-catalog_clean.json
+Hybrid Retrieval
 
 ↓
 
-catalog_metadata.json
+Decision Layer
 
-↓
+Only downstream modules consume upstream outputs.
 
-Embedding Generator
+---
 
-↓
+# Technology Stack
 
-FAISS Index
+Python 3.10.11
 
-↓
+FastAPI
 
-BM25 Index
+Sentence Transformers
 
-------------------------------------------------
+FAISS
 
-Embedding Model
+BM25Okapi
 
-sentence-transformers/all-MiniLM-L6-v2
+Gemini Flash
 
-Similarity
+Render
 
-Cosine Similarity
+GitHub
 
-FAISS Index
+---
 
-IndexFlatIP
+# Completed Phases
 
-------------------------------------------------
+## Phase 0
 
-Current Retrieval Assets
+Architecture
+
+Environment
+
+Documentation
+
+Planning
+
+---
+
+## Phase 1
 
 Knowledge Base
 
-Retrieval Metadata
-
-Dense Embeddings
-
-FAISS Index
-
-BM25 Index
-
-------------------------------------------------
+catalog_clean.json
 
 Status
 
 Frozen
 
-These assets should not be modified unless a genuine bug is discovered.
+---
 
-# Phase 4 Summary
+## Phase 2
 
-The Hybrid Retrieval Engine has been completed.
+Metadata Layer
 
-This phase combines dense retrieval and sparse retrieval into a deterministic retrieval pipeline.
+catalog_metadata.json
 
-------------------------------------------------
+Status
 
-Modules
+Frozen
 
-retriever_loader.py
+---
 
-hybrid_retriever.py
+## Phase 3
 
-fusion.py
+Embeddings
 
-metadata_filter.py
+FAISS
 
-------------------------------------------------
+BM25
 
-Retrieval Flow
+Status
+
+Frozen
+
+---
+
+## Phase 4
+
+Hybrid Retrieval
+
+Retriever Loader
+
+Fusion
+
+Metadata Filtering
+
+Status
+
+Frozen
+
+---
+
+## Phase 5
+
+Decision Layer
+
+Intent Detection
+
+Conversation State
+
+Clarification
+
+Recommendation
+
+Comparison
+
+Refusal
+
+Prompt Builder
+
+Status
+
+Frozen
+
+---
+
+# Current Architecture
 
 User Query
 
 ↓
 
-SentenceTransformer
+Intent Detector
 
 ↓
 
-FAISS Retrieval
+Conversation State
 
 ↓
 
-BM25 Retrieval
+Clarification Engine
 
 ↓
 
-Reciprocal Rank Fusion
+Hybrid Retrieval
 
 ↓
 
-Metadata Filtering
+Fusion
 
 ↓
 
-Candidate List
+Metadata Filter
 
-------------------------------------------------
+↓
 
-Key Features
+Decision Engines
 
-• Deterministic retrieval
+↓
 
-• Cosine similarity
+Prompt Builder
 
-• Reciprocal Rank Fusion
+↓
 
-• Metadata-aware filtering
+Gemini Flash
 
-• O(1) entity lookup
+↓
 
-• Production validation
+Structured Response
+
+---
+
+# Phase 6 Goal
+
+Integrate all modules into FastAPI.
+
+---
+
+# Coding Standards
+
+• Type hints everywhere
 
 • Modular architecture
 
-------------------------------------------------
+• Logging
 
-Outputs
+• Frozen dataclasses
 
-Filtered Candidate Assessments
+• Custom exceptions
 
-Ready for Gemini Decision Layer
+• Deterministic outputs
 
-------------------------------------------------
+• Separation of concerns
 
-Status
+---
 
-Frozen
+# Rule
+
+Frozen phases are never modified unless a genuine bug is discovered.

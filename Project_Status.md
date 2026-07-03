@@ -1,65 +1,72 @@
 # SHL Conversational Assessment Recommendation System
 
-## Project Status Report
+## Current Status
 
-Version: v0.4
+Version: v0.5
 
 Last Updated: July 2026
 
 ---
 
-## Current Phase
+Current Phase
 
-🟡 Phase 5 — Gemini Decision Layer
-
----
-
-## Overall Progress
-
-| Phase | Status |
-|--------|--------|
-| Phase 0 | ✅ Completed |
-| Phase 1 | ✅ Completed |
-| Phase 2 | ✅ Completed |
-| Phase 3 | ✅ Completed |
-| Phase 4 | ✅ Completed |
-| Phase 5 | 🟡 In Progress |
-| Phase 6 | ⬜ Pending |
-| Phase 7 | ⬜ Pending |
-
-Overall Completion
-
-Approximately 75%
+🟡 Phase 6 – FastAPI Integration
 
 ---
 
-## Frozen Components
+Overall Progress
 
-### Phase 1
+≈ 90%
+
+---
+
+Completed
+
+✅ Phase 0
+
+✅ Phase 1
+
+✅ Phase 2
+
+✅ Phase 3
+
+✅ Phase 4
+
+✅ Phase 5
+
+---
+
+Current Work
+
+FastAPI Integration
+
+---
+
+Pending
+
+Phase 6
+
+API
+
+↓
+
+Phase 7
+
+Testing
+
+↓
+
+Phase 8
+
+Deployment
+
+---
+
+Frozen Assets
 
 catalog_clean.json
 
-catalog_analyzer.py
-
-catalog_cleaner.py
-
----
-
-### Phase 2
-
 catalog_metadata.json
-
-metadata_generator.py
-
----
-
-### Phase 3
-
-embedding_generator.py
-
-faiss_index_builder.py
-
-bm25_index_builder.py
 
 catalog_embeddings.npy
 
@@ -71,7 +78,19 @@ bm25_index.pkl
 
 ---
 
-### Phase 4
+Frozen Modules
+
+catalog_analyzer.py
+
+catalog_cleaner.py
+
+metadata_generator.py
+
+embedding_generator.py
+
+faiss_index_builder.py
+
+bm25_index_builder.py
 
 retriever_loader.py
 
@@ -81,42 +100,16 @@ fusion.py
 
 metadata_filter.py
 
----
+intent_detector.py
 
-## Current Goal
+conversation_state.py
 
-Build the Gemini Decision Layer.
+clarification_engine.py
 
-This layer converts retrieved candidates into structured SHL recommendations.
+recommendation_engine.py
 
----
+comparison_engine.py
 
-## Remaining Roadmap
+refusal_engine.py
 
-Phase 5
-
-Decision Engine
-
-↓
-
-Phase 6
-
-FastAPI
-
-↓
-
-Phase 7
-
-Testing
-
-↓
-
-Deployment
-
-↓
-
-Documentation
-
-↓
-
-Submission
+prompt_builder.py

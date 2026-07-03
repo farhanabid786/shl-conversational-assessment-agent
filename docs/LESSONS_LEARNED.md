@@ -77,3 +77,15 @@ Lessons Learned
 
 • The LLM should operate only on retrieved candidates.
 
+# Phase 5
+
+Lessons Learned
+
+- Keep deterministic logic outside the LLM.
+- Intent detection should be rule-based before Gemini.
+- Conversation state should be structured.
+- Retrieval must finish before decision logic.
+- Gemini should only format and reason over retrieved candidates.
+- Refusal logic should not invoke retrieval.
+- Prompt construction should remain isolated from business logic.
+
