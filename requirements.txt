@@ -1,40 +1,26 @@
-# fastapi==0.116.1
-# uvicorn[standard]==0.35.0
+fastapi==0.139.0
+uvicorn==0.49.0
+pydantic==2.13.4
+pydantic-settings==2.14.2
 
-# pydantic==2.11.7
-# python-dotenv==1.1.1
+google-genai==2.10.0
 
-# numpy==2.2.6
-# pandas==2.3.1
+sentence-transformers==5.6.0
+torch==2.7.1
+transformers==5.12.1
 
-# sentence-transformers==5.0.0
-# faiss-cpu==1.11.0.post1
-# rank-bm25==0.2.2
+faiss-cpu==1.14.3
+rank-bm25==0.2.2
 
-# google-generativeai==0.8.5
+numpy==2.5.0
+pandas==3.0.3
+scikit-learn==1.9.0
+scipy==1.18.0
 
-# requests==2.32.4
+python-dotenv==1.2.2
+httpx==0.28.1
+requests==2.34.2
 
-# scikit-learn==1.7.0
-
-# python-multipart==0.0.20
-
-# tqdm==4.67.1
-
-# orjson==3.11.1
-
-# httpx==0.28.1
-
-fastapi
-uvicorn
-pydantic
-pydantic-settings
-google-genai
-sentence-transformers
-faiss-cpu
-rank-bm25
-numpy
-pandas
-python-dotenv
-httpx
-scikit-learn
+huggingface-hub==1.22.0
+safetensors==0.8.0
+tenacity==9.1.4
