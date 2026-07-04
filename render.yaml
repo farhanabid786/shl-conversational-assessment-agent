@@ -1,0 +1,27 @@
+# render.yaml
+# Render Blueprint — lets you deploy straight from the GitHub repo via
+# "New +" -> "Blueprint" instead of clicking through every setting by hand.
+#
+# Repo: https://github.com/farhanabid786/shl-conversational-assessment-agent
+
+services:
+  - type: web
+    name: shl-conversational-assessment-agent
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      # sync: false => Render prompts you to enter this secret manually in
+      # the dashboard rather than storing it in the repo/Blueprint file.
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: TORCH_NUM_THREADS
+        value: "1"
+      - key: MAX_CONVERSATION_TURNS
+        value: "8"
+      - key: GEMINI_TIMEOUT_SECONDS
+        value: "20"
+      - key: LOG_LEVEL
+        value: "INFO"

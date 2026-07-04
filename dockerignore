@@ -1,0 +1,34 @@
+# .dockerignore
+# Keeps the build context (and therefore image) lean for Render's
+# 512MB free tier. Anything not needed to actually SERVE /chat and
+# /health at runtime should be excluded here.
+
+# Local environments / caches
+venv/
+.venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+.pytest_cache/
+
+# Not needed at runtime — offline data-prep inputs/intermediates
+data/raw/
+data/cache/*.tmp
+
+# Tests, docs, project notes — none of this needs to ship in the image
+tests/
+docs/
+Project_Status*
+README*
+*.md
+
+# Secrets / VCS — never bake these into an image layer
+.env
+.git
+.gitignore
+
+# Misc
+*.png
+*.jpg
+*.jpeg
+node_modules/
