@@ -20,20 +20,12 @@ import logging
 from dataclasses import dataclass, field
 from typing import Any
 
-# from intent_detector import ConversationIntent
-# from conversation_state import ConversationState
-# from clarification_engine import ClarificationDecision
-# from recommendation_engine import RecommendationDecision
-# from comparison_engine import ComparisonDecision
-# from refusal_engine import RefusalDecision
 from scripts.intent_detector import ConversationIntent
 from scripts.conversation_state import ConversationState
 from scripts.clarification_engine import ClarificationDecision
 from scripts.recommendation_engine import RecommendationDecision
 from scripts.comparison_engine import ComparisonDecision
 from scripts.refusal_engine import RefusalDecision
-from scripts.metadata_filter import FilterCriteria
-from scripts.hybrid_retriever import retrieve
 
 logger = logging.getLogger(__name__)
 
@@ -80,6 +72,42 @@ _SYSTEM_PROMPT: str = (
 )
 
 _NO_SUMMARY_TEXT: str = "No structured hiring context has been captured yet."
+
+# Only these catalog_metadata.json fields are useful to a human-readable
+# prompt or response. Fields such as searchable_text, keywords,
+# filter_tokens, ranking_tokens, and metadata_version exist purely to
+# support retrieval/matching and are large, redundant, and irrelevant to
+# Gemini's answer or the API response — including them would needlessly
+# inflate prompt tokens and serialize the full catalog record outward.
+# Public so app.routes can reuse the exact same whitelist when building the
+# HTTP response, without duplicating the field list.
+DISPLAY_METADATA_FIELDS: tuple[str, ...] = (
+    "assessment_family",
+    "duration_minutes",
+    "adaptive",
+    "remote",
+    "languages",
+    "job_levels",
+)
+
+
+def display_metadata(metadata: dict[str, Any]) -> dict[str, Any]:
+    """Return only the whitelisted, human-relevant subset of a metadata dict.
+
+    Never serializes the full catalog record (e.g. searchable_text,
+    keywords, filter_tokens, ranking_tokens) into the prompt or response.
+    """
+    if not metadata:
+        return {}
+    return {
+        key: metadata[key]
+        for key in DISPLAY_METADATA_FIELDS
+        if key in metadata
+    }
+
+
+# Backwards-compatible private alias (internal call sites in this module).
+_display_metadata = display_metadata
 
 
 # ==============================================================================
@@ -221,9 +249,10 @@ def _format_recommendation_metadata(recommendation: RecommendationDecision) -> s
             f"{idx}. {candidate.canonical_name} "
             f"(entity_id={candidate.entity_id}, rrf_score={candidate.rrf_score:.4f})"
         )
-        if candidate.metadata:
-            for key in sorted(candidate.metadata.keys()):
-                lines.append(f"    - {key}: {candidate.metadata[key]}")
+        display_meta = _display_metadata(candidate.metadata)
+        if display_meta:
+            for key in sorted(display_meta.keys()):
+                lines.append(f"    - {key}: {display_meta[key]}")
     return "\n".join(lines)
 
 
@@ -231,9 +260,10 @@ def _format_comparison_data(comparison: ComparisonDecision) -> str:
     lines: list[str] = []
     for idx, item in enumerate(comparison.comparisons, start=1):
         lines.append(f"{idx}. {item.canonical_name} (entity_id={item.entity_id})")
-        if item.metadata:
-            for key in sorted(item.metadata.keys()):
-                lines.append(f"    - {key}: {item.metadata[key]}")
+        display_meta = _display_metadata(item.metadata)
+        if display_meta:
+            for key in sorted(display_meta.keys()):
+                lines.append(f"    - {key}: {display_meta[key]}")
     return "\n".join(lines)
 
 

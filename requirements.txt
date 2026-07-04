@@ -1,40 +1,14 @@
-# fastapi==0.116.1
-# uvicorn[standard]==0.35.0
-
-# pydantic==2.11.7
-# python-dotenv==1.1.1
-
-# numpy==2.2.6
-# pandas==2.3.1
-
-# sentence-transformers==5.0.0
-# faiss-cpu==1.11.0.post1
-# rank-bm25==0.2.2
-
-# google-generativeai==0.8.5
-
-# requests==2.32.4
-
-# scikit-learn==1.7.0
-
-# python-multipart==0.0.20
-
-# tqdm==4.67.1
-
-# orjson==3.11.1
-
-# httpx==0.28.1
-
-fastapi
-uvicorn
-pydantic
-pydantic-settings
-google-genai
-sentence-transformers
-faiss-cpu
-rank-bm25
-numpy
-pandas
-python-dotenv
-httpx
-scikit-learn
+fastapi>=0.110.0
+uvicorn>=0.28.0
+sqlalchemy>=2.0.28
+aiosqlite>=0.20.0
+asyncpg>=0.29.0
+pydantic>=2.6.4
+pydantic-settings>=2.2.1
+python-multipart>=0.0.9
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+google-genai>=0.1.1
+slowapi>=0.1.9
+mcp>=0.1.0
+pydantic[email]

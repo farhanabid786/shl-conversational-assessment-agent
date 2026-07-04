@@ -6,7 +6,27 @@ SHL Conversational Assessment Recommendation System
 
 Reads data/processed/catalog_metadata.json (read-only) and generates
 sentence embeddings from the 'searchable_text' field of each record using
-sentence-transformers/all-MiniLM-L6-v2.
+sentence-transformers/paraphrase-MiniLM-L3-v2.
+
+Model choice
+------------
+Switched from the 6-layer all-MiniLM-L6-v2 (~90MB) to the 3-layer
+paraphrase-MiniLM-L3-v2 (~60MB). Both output 384-dim embeddings, so this
+is a drop-in swap for every downstream consumer (FAISS index dimension,
+app.config.EMBEDDING_DIMENSION, etc. are all unchanged). With well under
+1,000 catalog rows, the larger model's extra capacity buys negligible
+recall while costing more download size, RAM, and encode latency — the
+smaller model is the better trade-off here, and it also helps keep the
+deployed service under its ~512MB memory budget.
+
+IMPORTANT: because the embedding model changed, this script must be
+re-run to regenerate catalog_embeddings.npy and embedding_mapping.json,
+and scripts/faiss_index_builder.py must then be re-run on the new
+embeddings to regenerate data/faiss/catalog.index. Old artifacts built
+with all-MiniLM-L6-v2 are numerically incompatible with this model even
+though the dimension happens to match — do not mix an old FAISS index
+with the new model, or vice versa (app.config.EMBEDDING_DIMENSION only
+guards dimension, not semantic compatibility).
 
 Outputs:
   1. data/embeddings/catalog_embeddings.npy   (float32 numpy array)
@@ -36,8 +56,14 @@ METADATA_INPUT_PATH = Path("data/processed/catalog_metadata.json")
 EMBEDDINGS_OUTPUT_PATH = Path("data/embeddings/catalog_embeddings.npy")
 MAPPING_OUTPUT_PATH = Path("data/embeddings/embedding_mapping.json")
 
-MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
-EXPECTED_EMBEDDING_DIM = 384  # all-MiniLM-L6-v2 output dimension
+# 3-layer MiniLM: smaller download/RAM footprint than the 6-layer variant,
+# chosen because the catalog is well under 1,000 rows so the extra
+# capacity of the larger model is wasted. Must match app.config's
+# EMBEDDING_MODEL and scripts.retriever_loader's SENTENCE_TRANSFORMER_MODEL
+# — all three are kept in sync manually since this script runs offline,
+# outside the FastAPI process, and therefore cannot import app.config.
+MODEL_NAME = "sentence-transformers/paraphrase-MiniLM-L3-v2"
+EXPECTED_EMBEDDING_DIM = 384  # paraphrase-MiniLM-L3-v2 output dimension
 
 # --------------------------------------------------------------------------- #
 # Logging

@@ -4,6 +4,8 @@
     "canonical_name": "Global Skills Development Report",
     "normalized_name": "global skills development report",
     "assessment_family": "Ability & Aptitude",
+    "url": "https://www.shl.com/products/product-catalog/view/global-skills-development-report/",
+    "test_type": "ABCDEP",
     "keywords": [
       "global",
       "skills",
@@ -155,6 +157,8 @@
     "canonical_name": ".NET Framework 4.5",
     "normalized_name": "net framework 4 5",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/net-framework-4-5/",
+    "test_type": "K",
     "keywords": [
       "net",
       "framework",
@@ -247,6 +251,8 @@
     "canonical_name": ".NET MVC (New)",
     "normalized_name": "net mvc new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/net-mvc-new/",
+    "test_type": "K",
     "keywords": [
       "net",
       "mvc",
@@ -325,6 +331,8 @@
     "canonical_name": ".NET MVVM (New)",
     "normalized_name": "net mvvm new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/net-mvvm-new/",
+    "test_type": "K",
     "keywords": [
       "net",
       "mvvm",
@@ -401,6 +409,8 @@
     "canonical_name": ".NET WCF (New)",
     "normalized_name": "net wcf new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/net-wcf-new/",
+    "test_type": "K",
     "keywords": [
       "net",
       "wcf",
@@ -475,6 +485,8 @@
     "canonical_name": ".NET WPF (New)",
     "normalized_name": "net wpf new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/net-wpf-new/",
+    "test_type": "K",
     "keywords": [
       "net",
       "wpf",
@@ -555,6 +567,8 @@
     "canonical_name": ".NET XAML (New)",
     "normalized_name": "net xaml new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/net-xaml-new/",
+    "test_type": "K",
     "keywords": [
       "net",
       "xaml",
@@ -627,6 +641,8 @@
     "canonical_name": "Accounts Payable (New)",
     "normalized_name": "accounts payable new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/accounts-payable-new/",
+    "test_type": "K",
     "keywords": [
       "accounts",
       "payable",
@@ -711,6 +727,8 @@
     "canonical_name": "Accounts Payable Simulation (New)",
     "normalized_name": "accounts payable simulation new",
     "assessment_family": "Simulations",
+    "url": "https://www.shl.com/products/product-catalog/view/accounts-payable-simulation-new/",
+    "test_type": "S",
     "keywords": [
       "accounts",
       "payable",
@@ -791,6 +809,8 @@
     "canonical_name": "Accounts Receivable (New)",
     "normalized_name": "accounts receivable new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/accounts-receivable-new/",
+    "test_type": "K",
     "keywords": [
       "accounts",
       "receivable",
@@ -869,6 +889,8 @@
     "canonical_name": "Accounts Receivable Simulation (New)",
     "normalized_name": "accounts receivable simulation new",
     "assessment_family": "Simulations",
+    "url": "https://www.shl.com/products/product-catalog/view/accounts-receivable-simulation-new/",
+    "test_type": "S",
     "keywords": [
       "accounts",
       "receivable",
@@ -947,6 +969,8 @@
     "canonical_name": "ADO.NET (New)",
     "normalized_name": "ado net new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/ado-net-new/",
+    "test_type": "K",
     "keywords": [
       "ado",
       "net",
@@ -1021,6 +1045,8 @@
     "canonical_name": "Adobe Experience Manager (New)",
     "normalized_name": "adobe experience manager new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/adobe-experience-manager-new/",
+    "test_type": "K",
     "keywords": [
       "adobe",
       "experience",
@@ -1103,6 +1129,8 @@
     "canonical_name": "Adobe Photoshop CC",
     "normalized_name": "adobe photoshop cc",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/adobe-photoshop-cc/",
+    "test_type": "K",
     "keywords": [
       "adobe",
       "photoshop",
@@ -1199,6 +1227,8 @@
     "canonical_name": "Aeronautical Engineering (New)",
     "normalized_name": "aeronautical engineering new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/aeronautical-engineering-new/",
+    "test_type": "K",
     "keywords": [
       "aeronautical",
       "engineering",
@@ -1279,6 +1309,8 @@
     "canonical_name": "Aerospace Engineering (New)",
     "normalized_name": "aerospace engineering new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/aerospace-engineering-new/",
+    "test_type": "K",
     "keywords": [
       "aerospace",
       "engineering",
@@ -1363,6 +1395,8 @@
     "canonical_name": "Agile Software Development",
     "normalized_name": "agile software development",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/agile-software-development/",
+    "test_type": "K",
     "keywords": [
       "agile",
       "software",
@@ -1431,6 +1465,8 @@
     "canonical_name": "Agile Testing (New)",
     "normalized_name": "agile testing new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/agile-testing-new/",
+    "test_type": "K",
     "keywords": [
       "agile",
       "testing",
@@ -1503,6 +1539,8 @@
     "canonical_name": "AI Skills",
     "normalized_name": "ai skills",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/ai-skills/",
+    "test_type": "P",
     "keywords": [
       "ai",
       "skills",
@@ -1563,6 +1601,8 @@
     "canonical_name": "Amazon Web Services (AWS) Development (New)",
     "normalized_name": "amazon web services aws development new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/amazon-web-services-aws-development-new/",
+    "test_type": "K",
     "keywords": [
       "amazon",
       "web",
@@ -1645,6 +1685,8 @@
     "canonical_name": "Android Development (New)",
     "normalized_name": "android development new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/android-development-new/",
+    "test_type": "K",
     "keywords": [
       "android",
       "development",
@@ -1727,6 +1769,8 @@
     "canonical_name": "Angular 6 (New)",
     "normalized_name": "angular 6 new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/angular-6-new/",
+    "test_type": "K",
     "keywords": [
       "angular",
       "new",
@@ -1816,6 +1860,8 @@
     "canonical_name": "AngularJS (New)",
     "normalized_name": "angularjs new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/angularjs-new/",
+    "test_type": "K",
     "keywords": [
       "angularjs",
       "new",
@@ -1888,6 +1934,8 @@
     "canonical_name": "Apache Hadoop (New)",
     "normalized_name": "apache hadoop new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/apache-hadoop-new/",
+    "test_type": "K",
     "keywords": [
       "apache",
       "hadoop",
@@ -1958,6 +2006,8 @@
     "canonical_name": "Apache Hadoop Extensions (New)",
     "normalized_name": "apache hadoop extensions new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/apache-hadoop-extensions-new/",
+    "test_type": "K",
     "keywords": [
       "apache",
       "hadoop",
@@ -2028,6 +2078,8 @@
     "canonical_name": "Apache HBase (New)",
     "normalized_name": "apache hbase new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/apache-hbase-new/",
+    "test_type": "K",
     "keywords": [
       "apache",
       "hbase",
@@ -2110,6 +2162,8 @@
     "canonical_name": "Apache Hive (New)",
     "normalized_name": "apache hive new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/apache-hive-new/",
+    "test_type": "K",
     "keywords": [
       "apache",
       "hive",
@@ -2190,6 +2244,8 @@
     "canonical_name": "Apache Kafka (New)",
     "normalized_name": "apache kafka new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/apache-kafka-new/",
+    "test_type": "K",
     "keywords": [
       "apache",
       "kafka",
@@ -2264,6 +2320,8 @@
     "canonical_name": "Apache Pig (New)",
     "normalized_name": "apache pig new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/apache-pig-new/",
+    "test_type": "K",
     "keywords": [
       "apache",
       "pig",
@@ -2336,6 +2394,8 @@
     "canonical_name": "Apache Spark (New)",
     "normalized_name": "apache spark new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/apache-spark-new/",
+    "test_type": "K",
     "keywords": [
       "apache",
       "spark",
@@ -2414,6 +2474,8 @@
     "canonical_name": "ASP .NET with C# (New)",
     "normalized_name": "asp net with c new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/asp-net-with-c-new/",
+    "test_type": "K",
     "keywords": [
       "asp",
       "net",
@@ -2506,6 +2568,8 @@
     "canonical_name": "ASP.NET 4.5",
     "normalized_name": "asp net 4 5",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/asp-net-4-5/",
+    "test_type": "K",
     "keywords": [
       "asp",
       "net",
@@ -2622,6 +2686,8 @@
     "canonical_name": "Assessment and Development Center Exercises",
     "normalized_name": "assessment and development center exercises",
     "assessment_family": "Assessment Exercises",
+    "url": "https://www.shl.com/products/product-catalog/view/assessment-and-development-center-exercises/",
+    "test_type": "E",
     "keywords": [
       "assessment",
       "development",
@@ -2775,6 +2841,8 @@
     "canonical_name": "Automata - Fix (New)",
     "normalized_name": "automata fix new",
     "assessment_family": "Simulations",
+    "url": "https://www.shl.com/products/product-catalog/view/automata-fix-new/",
+    "test_type": "S",
     "keywords": [
       "automata",
       "fix",
@@ -2905,6 +2973,8 @@
     "canonical_name": "Automata - SQL (New)",
     "normalized_name": "automata sql new",
     "assessment_family": "Simulations",
+    "url": "https://www.shl.com/products/product-catalog/view/automata-sql-new/",
+    "test_type": "S",
     "keywords": [
       "automata",
       "sql",
@@ -2983,6 +3053,8 @@
     "canonical_name": "Automata (New)",
     "normalized_name": "automata new",
     "assessment_family": "Simulations",
+    "url": "https://www.shl.com/products/product-catalog/view/automata-new/",
+    "test_type": "S",
     "keywords": [
       "automata",
       "new",
@@ -3129,6 +3201,8 @@
     "canonical_name": "Automata Data Science (New)",
     "normalized_name": "automata data science new",
     "assessment_family": "Simulations",
+    "url": "https://www.shl.com/products/product-catalog/view/automata-data-science-new/",
+    "test_type": "S",
     "keywords": [
       "automata",
       "data",
@@ -3209,6 +3283,8 @@
     "canonical_name": "Automata Data Science Pro (New)",
     "normalized_name": "automata data science pro new",
     "assessment_family": "Simulations",
+    "url": "https://www.shl.com/products/product-catalog/view/automata-data-science-pro-new/",
+    "test_type": "S",
     "keywords": [
       "automata",
       "data",
@@ -3291,6 +3367,8 @@
     "canonical_name": "Automata Front End",
     "normalized_name": "automata front end",
     "assessment_family": "Simulations",
+    "url": "https://www.shl.com/products/product-catalog/view/automata-front-end/",
+    "test_type": "S",
     "keywords": [
       "automata",
       "front",
@@ -3401,6 +3479,8 @@
     "canonical_name": "Automata Pro (New)",
     "normalized_name": "automata pro new",
     "assessment_family": "Simulations",
+    "url": "https://www.shl.com/products/product-catalog/view/automata-pro-new/",
+    "test_type": "S",
     "keywords": [
       "automata",
       "pro",
@@ -3549,6 +3629,8 @@
     "canonical_name": "Automata Selenium",
     "normalized_name": "automata selenium",
     "assessment_family": "Simulations",
+    "url": "https://www.shl.com/products/product-catalog/view/automata-selenium/",
+    "test_type": "S",
     "keywords": [
       "automata",
       "selenium",
@@ -3637,6 +3719,8 @@
     "canonical_name": "Automation Anywhere RPA Development (New)",
     "normalized_name": "automation anywhere rpa development new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/automation-anywhere-rpa-development-new/",
+    "test_type": "K",
     "keywords": [
       "automation",
       "anywhere",
@@ -3721,6 +3805,8 @@
     "canonical_name": "Automotive Engineering (New)",
     "normalized_name": "automotive engineering new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/automotive-engineering-new/",
+    "test_type": "K",
     "keywords": [
       "automotive",
       "engineering",
@@ -3807,6 +3893,8 @@
     "canonical_name": "Basic Biology (New)",
     "normalized_name": "basic biology new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/basic-biology-new/",
+    "test_type": "K",
     "keywords": [
       "basic",
       "biology",
@@ -3875,6 +3963,8 @@
     "canonical_name": "Basic Computer Literacy (Windows 10) (New)",
     "normalized_name": "basic computer literacy windows 10 new",
     "assessment_family": "Simulations",
+    "url": "https://www.shl.com/products/product-catalog/view/basic-computer-literacy-windows-10-new/",
+    "test_type": "KS",
     "keywords": [
       "basic",
       "computer",
@@ -3995,6 +4085,8 @@
     "canonical_name": "Basic Statistics (New)",
     "normalized_name": "basic statistics new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/basic-statistics-new/",
+    "test_type": "K",
     "keywords": [
       "basic",
       "statistics",
@@ -4079,6 +4171,8 @@
     "canonical_name": "Biochemistry (New)",
     "normalized_name": "biochemistry new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/biochemistry-new/",
+    "test_type": "K",
     "keywords": [
       "biochemistry",
       "new",
@@ -4169,6 +4263,8 @@
     "canonical_name": "Biotech Lab Techniques (New)",
     "normalized_name": "biotech lab techniques new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/biotech-lab-techniques-new/",
+    "test_type": "K",
     "keywords": [
       "biotech",
       "lab",
@@ -4249,6 +4345,8 @@
     "canonical_name": "BizTalk (New)",
     "normalized_name": "biztalk new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/biztalk-new/",
+    "test_type": "K",
     "keywords": [
       "biztalk",
       "new",
@@ -4323,6 +4421,8 @@
     "canonical_name": "Business Communication (adaptive)",
     "normalized_name": "business communication adaptive",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+    "test_type": "K",
     "keywords": [
       "business",
       "communication",
@@ -4441,6 +4541,8 @@
     "canonical_name": "Business Communications",
     "normalized_name": "business communications",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+    "test_type": "K",
     "keywords": [
       "business",
       "communications",
@@ -4536,6 +4638,8 @@
     "canonical_name": "C Programming (New)",
     "normalized_name": "c programming new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/c-programming-new/",
+    "test_type": "K",
     "keywords": [
       "programming",
       "new",
@@ -4625,6 +4729,8 @@
     "canonical_name": "C# Programming (New)",
     "normalized_name": "c programming new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/c-programming-new-4039/",
+    "test_type": "K",
     "keywords": [
       "programming",
       "new",
@@ -4708,6 +4814,8 @@
     "canonical_name": "C++ Programming (New)",
     "normalized_name": "c programming new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/c-programming-new-4122/",
+    "test_type": "K",
     "keywords": [
       "programming",
       "new",
@@ -4783,6 +4891,8 @@
     "canonical_name": "Cardiology and Diabetes Management (New)",
     "normalized_name": "cardiology and diabetes management new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/cardiology-and-diabetes-management-new/",
+    "test_type": "K",
     "keywords": [
       "cardiology",
       "diabetes",
@@ -4866,6 +4976,8 @@
     "canonical_name": "Ceramic Engineering (New)",
     "normalized_name": "ceramic engineering new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/ceramic-engineering-new/",
+    "test_type": "K",
     "keywords": [
       "ceramic",
       "engineering",
@@ -4942,6 +5054,8 @@
     "canonical_name": "Chemical Engineering (New)",
     "normalized_name": "chemical engineering new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/chemical-engineering-new/",
+    "test_type": "K",
     "keywords": [
       "chemical",
       "engineering",
@@ -5024,6 +5138,8 @@
     "canonical_name": "Cisco AppDynamics (New)",
     "normalized_name": "cisco appdynamics new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/cisco-appdynamics-new/",
+    "test_type": "K",
     "keywords": [
       "cisco",
       "appdynamics",
@@ -5108,6 +5224,8 @@
     "canonical_name": "Civil Engineering (New)",
     "normalized_name": "civil engineering new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/civil-engineering-new/",
+    "test_type": "K",
     "keywords": [
       "civil",
       "engineering",
@@ -5194,6 +5312,8 @@
     "canonical_name": "Cloud Computing (New)",
     "normalized_name": "cloud computing new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/cloud-computing-new/",
+    "test_type": "K",
     "keywords": [
       "cloud",
       "computing",
@@ -5266,6 +5386,8 @@
     "canonical_name": "COBOL Programming (New)",
     "normalized_name": "cobol programming new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/cobol-programming-new/",
+    "test_type": "K",
     "keywords": [
       "cobol",
       "programming",
@@ -5340,6 +5462,8 @@
     "canonical_name": "Computer Science (New)",
     "normalized_name": "computer science new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/computer-science-new/",
+    "test_type": "K",
     "keywords": [
       "computer",
       "science",
@@ -5416,6 +5540,8 @@
     "canonical_name": "Contact Center Call Simulation (New)",
     "normalized_name": "contact center call simulation new",
     "assessment_family": "Simulations",
+    "url": "https://www.shl.com/products/product-catalog/view/contact-center-call-simulation-new/",
+    "test_type": "S",
     "keywords": [
       "contact",
       "center",
@@ -5494,6 +5620,8 @@
     "canonical_name": "Conversational Multichat Simulation",
     "normalized_name": "conversational multichat simulation",
     "assessment_family": "Simulations",
+    "url": "https://www.shl.com/products/product-catalog/view/conversational-multichat-simulation/",
+    "test_type": "S",
     "keywords": [
       "conversational",
       "multichat",
@@ -5607,6 +5735,8 @@
     "canonical_name": "Core Java (Advanced Level) (New)",
     "normalized_name": "core java advanced level new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/core-java-advanced-level-new/",
+    "test_type": "K",
     "keywords": [
       "core",
       "java",
@@ -5699,6 +5829,8 @@
     "canonical_name": "Core Java (Entry Level) (New)",
     "normalized_name": "core java entry level new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/core-java-entry-level-new/",
+    "test_type": "K",
     "keywords": [
       "core",
       "java",
@@ -5787,6 +5919,8 @@
     "canonical_name": "Count Out The Money",
     "normalized_name": "count out the money",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/count-out-the-money/",
+    "test_type": "KS",
     "keywords": [
       "count",
       "money",
@@ -5875,6 +6009,8 @@
     "canonical_name": "CSS3 (New)",
     "normalized_name": "css3 new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/css3-new/",
+    "test_type": "K",
     "keywords": [
       "css3",
       "new",
@@ -5943,6 +6079,8 @@
     "canonical_name": "Culinary Skills (New)",
     "normalized_name": "culinary skills new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/culinary-skills-new/",
+    "test_type": "K",
     "keywords": [
       "culinary",
       "skills",
@@ -6029,6 +6167,8 @@
     "canonical_name": "Customer Service Phone Simulation",
     "normalized_name": "customer service phone simulation",
     "assessment_family": "Biodata & Situational Judgment",
+    "url": "https://www.shl.com/products/product-catalog/view/customer-service-phone-simulation/",
+    "test_type": "BS",
     "keywords": [
       "customer",
       "service",
@@ -6240,6 +6380,8 @@
     "canonical_name": "Customer Service Phone Solution",
     "normalized_name": "customer service phone solution",
     "assessment_family": "Biodata & Situational Judgment",
+    "url": "https://www.shl.com/products/product-catalog/view/customer-service-phone-solution/",
+    "test_type": "BPS",
     "keywords": [
       "customer",
       "service",
@@ -6473,6 +6615,8 @@
     "canonical_name": "Cyber Risk (New)",
     "normalized_name": "cyber risk new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/cyber-risk-new/",
+    "test_type": "K",
     "keywords": [
       "cyber",
       "risk",
@@ -6551,6 +6695,8 @@
     "canonical_name": "Data Entry (New)",
     "normalized_name": "data entry new",
     "assessment_family": "Simulations",
+    "url": "https://www.shl.com/products/product-catalog/view/data-entry-new/",
+    "test_type": "S",
     "keywords": [
       "data",
       "entry",
@@ -6613,6 +6759,8 @@
     "canonical_name": "Data Entry Alphanumeric Split Screen - US",
     "normalized_name": "data entry alphanumeric split screen us",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/data-entry-alphanumeric-split-screen-us/",
+    "test_type": "K",
     "keywords": [
       "data",
       "entry",
@@ -6721,6 +6869,8 @@
     "canonical_name": "Data Entry Numeric Split Screen - US",
     "normalized_name": "data entry numeric split screen us",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/data-entry-numeric-split-screen-us/",
+    "test_type": "K",
     "keywords": [
       "data",
       "entry",
@@ -6845,6 +6995,8 @@
     "canonical_name": "Data Entry Ten Key Split Screen",
     "normalized_name": "data entry ten key split screen",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/data-entry-ten-key-split-screen/",
+    "test_type": "K",
     "keywords": [
       "data",
       "entry",
@@ -6937,6 +7089,8 @@
     "canonical_name": "Data Science (New)",
     "normalized_name": "data science new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/data-science-new/",
+    "test_type": "K",
     "keywords": [
       "data",
       "science",
@@ -7025,6 +7179,8 @@
     "canonical_name": "Data Warehousing Concepts",
     "normalized_name": "data warehousing concepts",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/data-warehousing-concepts/",
+    "test_type": "K",
     "keywords": [
       "data",
       "warehousing",
@@ -7129,6 +7285,8 @@
     "canonical_name": "Dependability and Safety Instrument (DSI)",
     "normalized_name": "dependability and safety instrument dsi",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/dependability-and-safety-instrument-dsi/",
+    "test_type": "P",
     "keywords": [
       "dependability",
       "safety",
@@ -7312,6 +7470,8 @@
     "canonical_name": "Dermatology (New)",
     "normalized_name": "dermatology new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/dermatology-new/",
+    "test_type": "K",
     "keywords": [
       "dermatology",
       "new",
@@ -7396,6 +7556,8 @@
     "canonical_name": "Desktop Support (New)",
     "normalized_name": "desktop support new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/desktop-support-new/",
+    "test_type": "K",
     "keywords": [
       "desktop",
       "support",
@@ -7476,6 +7638,8 @@
     "canonical_name": "Digital Advertising (New)",
     "normalized_name": "digital advertising new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/digital-advertising-new/",
+    "test_type": "K",
     "keywords": [
       "digital",
       "advertising",
@@ -7564,6 +7728,8 @@
     "canonical_name": "Digital Readiness Development Report - IC",
     "normalized_name": "digital readiness development report ic",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/digital-readiness-development-report/",
+    "test_type": "P",
     "keywords": [
       "digital",
       "readiness",
@@ -7737,6 +7903,8 @@
     "canonical_name": "Digital Readiness Development Report - Manager",
     "normalized_name": "digital readiness development report manager",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/digital-readiness-development-report-manager/",
+    "test_type": "P",
     "keywords": [
       "digital",
       "readiness",
@@ -7908,6 +8076,8 @@
     "canonical_name": "Docker (New)",
     "normalized_name": "docker new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/docker-new/",
+    "test_type": "K",
     "keywords": [
       "docker",
       "new",
@@ -7978,6 +8148,8 @@
     "canonical_name": "Dojo (New)",
     "normalized_name": "dojo new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/dojo-new/",
+    "test_type": "K",
     "keywords": [
       "dojo",
       "new",
@@ -8050,6 +8222,8 @@
     "canonical_name": "Drupal (New)",
     "normalized_name": "drupal new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/drupal-new/",
+    "test_type": "K",
     "keywords": [
       "drupal",
       "new",
@@ -8126,6 +8300,8 @@
     "canonical_name": "DSI v1.1 Interpretation Report",
     "normalized_name": "dsi v1 1 interpretation report",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/dsi-v1-1-interpretation-report/",
+    "test_type": "P",
     "keywords": [
       "dsi",
       "v1",
@@ -8236,6 +8412,8 @@
     "canonical_name": "Econometrics (New)",
     "normalized_name": "econometrics new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/econometrics-new/",
+    "test_type": "K",
     "keywords": [
       "econometrics",
       "new",
@@ -8318,6 +8496,8 @@
     "canonical_name": "Economics (New)",
     "normalized_name": "economics new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/economics-new/",
+    "test_type": "K",
     "keywords": [
       "economics",
       "new",
@@ -8392,6 +8572,8 @@
     "canonical_name": "Electrical and Electronics Engineering (New)",
     "normalized_name": "electrical and electronics engineering new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/electrical-and-electronics-engineering-new/",
+    "test_type": "K",
     "keywords": [
       "electrical",
       "electronics",
@@ -8473,6 +8655,8 @@
     "canonical_name": "Electrical Engineering (New)",
     "normalized_name": "electrical engineering new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/electrical-engineering-new/",
+    "test_type": "K",
     "keywords": [
       "electrical",
       "engineering",
@@ -8553,6 +8737,8 @@
     "canonical_name": "Electronics & Telecommunications Engineering (New)",
     "normalized_name": "electronics telecommunications engineering new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/electronics-and-telecommunications-engineering-new/",
+    "test_type": "K",
     "keywords": [
       "electronics",
       "telecommunications",
@@ -8641,6 +8827,8 @@
     "canonical_name": "Electronics and Embedded Systems Engineering (New)",
     "normalized_name": "electronics and embedded systems engineering new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/electronics-and-embedded-systems-engineering-new/",
+    "test_type": "K",
     "keywords": [
       "electronics",
       "embedded",
@@ -8724,6 +8912,8 @@
     "canonical_name": "Electronics and Semiconductor Engineering (New)",
     "normalized_name": "electronics and semiconductor engineering new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/electronics-and-semiconductor-engineering-new/",
+    "test_type": "K",
     "keywords": [
       "electronics",
       "semiconductor",
@@ -8809,6 +8999,8 @@
     "canonical_name": "English Comprehension (New)",
     "normalized_name": "english comprehension new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/english-comprehension-new/",
+    "test_type": "K",
     "keywords": [
       "english",
       "comprehension",
@@ -8867,6 +9059,8 @@
     "canonical_name": "Enterprise Java Beans (New)",
     "normalized_name": "enterprise java beans new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/enterprise-java-beans-new/",
+    "test_type": "K",
     "keywords": [
       "enterprise",
       "java",
@@ -8937,6 +9131,8 @@
     "canonical_name": "Enterprise Leadership Report 1.0",
     "normalized_name": "enterprise leadership report 1 0",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/enterprise-leadership-report/",
+    "test_type": "P",
     "keywords": [
       "enterprise",
       "leadership",
@@ -9032,6 +9228,8 @@
     "canonical_name": "Enterprise Leadership Report 2.0",
     "normalized_name": "enterprise leadership report 2 0",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/enterprise-leadership-report-2-0/",
+    "test_type": "P",
     "keywords": [
       "enterprise",
       "leadership",
@@ -9127,6 +9325,8 @@
     "canonical_name": "Entry Level Cashier Solution",
     "normalized_name": "entry level cashier solution",
     "assessment_family": "Competencies",
+    "url": "https://www.shl.com/products/product-catalog/view/entry-level-cashier-solution/",
+    "test_type": "CP",
     "keywords": [
       "entry",
       "level",
@@ -9293,6 +9493,8 @@
     "canonical_name": "Entry Level Customer Serv-Retail & Contact Center",
     "normalized_name": "entry level customer serv retail contact center",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/entry-level-customer-serv-retail-and-contact-center/",
+    "test_type": "CP",
     "keywords": [
       "entry",
       "level",
@@ -9477,6 +9679,8 @@
     "canonical_name": "Entry Level Customer Service (General) Solution",
     "normalized_name": "entry level customer service general solution",
     "assessment_family": "Competencies",
+    "url": "https://www.shl.com/products/product-catalog/view/entry-level-customer-service-general-solution/",
+    "test_type": "CP",
     "keywords": [
       "entry",
       "level",
@@ -9673,6 +9877,8 @@
     "canonical_name": "Entry Level Hotel Front Desk Solution",
     "normalized_name": "entry level hotel front desk solution",
     "assessment_family": "Competencies",
+    "url": "https://www.shl.com/products/product-catalog/view/entry-level-hotel-front-desk-solution/",
+    "test_type": "CP",
     "keywords": [
       "entry",
       "level",
@@ -9835,6 +10041,8 @@
     "canonical_name": "Entry Level Sales Solution",
     "normalized_name": "entry level sales solution",
     "assessment_family": "Competencies",
+    "url": "https://www.shl.com/products/product-catalog/view/entry-level-sales-solution/",
+    "test_type": "CP",
     "keywords": [
       "entry",
       "level",
@@ -9997,6 +10205,8 @@
     "canonical_name": "Entry Level Technical Support Solution",
     "normalized_name": "entry level technical support solution",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/entry-level-technical-support-solution/",
+    "test_type": "CP",
     "keywords": [
       "entry",
       "level",
@@ -10187,6 +10397,8 @@
     "canonical_name": "ETL Testing (New)",
     "normalized_name": "etl testing new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/etl-testing-new/",
+    "test_type": "K",
     "keywords": [
       "etl",
       "testing",
@@ -10269,6 +10481,8 @@
     "canonical_name": "Executive Scenarios",
     "normalized_name": "executive scenarios",
     "assessment_family": "Biodata & Situational Judgment",
+    "url": "https://www.shl.com/products/product-catalog/view/executive-scenarios/",
+    "test_type": "B",
     "keywords": [
       "executive",
       "scenarios",
@@ -10503,6 +10717,8 @@
     "canonical_name": "Executive Scenarios Narrative Report",
     "normalized_name": "executive scenarios narrative report",
     "assessment_family": "Biodata & Situational Judgment",
+    "url": "https://www.shl.com/products/product-catalog/view/executive-scenarios-narrative-report/",
+    "test_type": "B",
     "keywords": [
       "executive",
       "scenarios",
@@ -10716,6 +10932,8 @@
     "canonical_name": "Executive Scenarios Profile Report",
     "normalized_name": "executive scenarios profile report",
     "assessment_family": "Biodata & Situational Judgment",
+    "url": "https://www.shl.com/products/product-catalog/view/executive-scenarios-profile-report/",
+    "test_type": "B",
     "keywords": [
       "executive",
       "scenarios",
@@ -10929,6 +11147,8 @@
     "canonical_name": "ExpressJS (New)",
     "normalized_name": "expressjs new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/expressjs-new/",
+    "test_type": "K",
     "keywords": [
       "expressjs",
       "new",
@@ -11001,6 +11221,8 @@
     "canonical_name": "Filing - Names (R1)",
     "normalized_name": "filing names r1",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/filing-names-r1/",
+    "test_type": "K",
     "keywords": [
       "filing",
       "names",
@@ -11097,6 +11319,8 @@
     "canonical_name": "Filing - Numbers",
     "normalized_name": "filing numbers",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/filing-numbers/",
+    "test_type": "K",
     "keywords": [
       "filing",
       "numbers",
@@ -11195,6 +11419,8 @@
     "canonical_name": "Financial Accounting (New)",
     "normalized_name": "financial accounting new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/financial-accounting-new/",
+    "test_type": "K",
     "keywords": [
       "financial",
       "accounting",
@@ -11297,6 +11523,8 @@
     "canonical_name": "Financial and Banking Services (New)",
     "normalized_name": "financial and banking services new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/financial-and-banking-services-new/",
+    "test_type": "K",
     "keywords": [
       "financial",
       "banking",
@@ -11382,6 +11610,8 @@
     "canonical_name": "Fire Engineering (New)",
     "normalized_name": "fire engineering new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/fire-engineering-new/",
+    "test_type": "K",
     "keywords": [
       "fire",
       "engineering",
@@ -11458,6 +11688,8 @@
     "canonical_name": "Following Instructions v1 - UK (R1)",
     "normalized_name": "following instructions v1 uk r1",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/following-instructions-v1-uk-r1/",
+    "test_type": "K",
     "keywords": [
       "following",
       "instructions",
@@ -11572,6 +11804,8 @@
     "canonical_name": "Following Instructions v1 - US (R2)",
     "normalized_name": "following instructions v1 us r2",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/following-instructions-v1-us-r2/",
+    "test_type": "K",
     "keywords": [
       "following",
       "instructions",
@@ -11686,6 +11920,8 @@
     "canonical_name": "Food and Beverage Services (New)",
     "normalized_name": "food and beverage services new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/food-and-beverage-services-new/",
+    "test_type": "K",
     "keywords": [
       "food",
       "beverage",
@@ -11775,6 +12011,8 @@
     "canonical_name": "Food Science (New)",
     "normalized_name": "food science new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/food-science-new/",
+    "test_type": "K",
     "keywords": [
       "food",
       "science",
@@ -11851,6 +12089,8 @@
     "canonical_name": "Front Office Management (New)",
     "normalized_name": "front office management new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/front-office-management-new/",
+    "test_type": "K",
     "keywords": [
       "front",
       "office",
@@ -11925,6 +12165,8 @@
     "canonical_name": "Fundamentals of Chemistry (New)",
     "normalized_name": "fundamentals of chemistry new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/fundamentals-of-chemistry-new/",
+    "test_type": "K",
     "keywords": [
       "fundamentals",
       "chemistry",
@@ -11996,6 +12238,8 @@
     "canonical_name": "Fundamentals of Physics (New)",
     "normalized_name": "fundamentals of physics new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/fundamentals-of-physics-new/",
+    "test_type": "K",
     "keywords": [
       "fundamentals",
       "physics",
@@ -12081,6 +12325,8 @@
     "canonical_name": "General Diseases (New)",
     "normalized_name": "general diseases new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/general-diseases-new/",
+    "test_type": "K",
     "keywords": [
       "general",
       "diseases",
@@ -12169,6 +12415,8 @@
     "canonical_name": "Geoinformatics Engineering (New)",
     "normalized_name": "geoinformatics engineering new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/geoinformatics-engineering-new/",
+    "test_type": "K",
     "keywords": [
       "geoinformatics",
       "engineering",
@@ -12267,6 +12515,8 @@
     "canonical_name": "Geoscience Engineering (New)",
     "normalized_name": "geoscience engineering new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/geoscience-engineering-new/",
+    "test_type": "K",
     "keywords": [
       "geoscience",
       "engineering",
@@ -12349,6 +12599,8 @@
     "canonical_name": "GIT (New)",
     "normalized_name": "git new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/git-new/",
+    "test_type": "K",
     "keywords": [
       "git",
       "new",
@@ -12415,6 +12667,8 @@
     "canonical_name": "Global Skills Assessment",
     "normalized_name": "global skills assessment",
     "assessment_family": "Competencies",
+    "url": "https://www.shl.com/products/product-catalog/view/global-skills-assessment/",
+    "test_type": "CK",
     "keywords": [
       "global",
       "skills",
@@ -12626,6 +12880,8 @@
     "canonical_name": "Graduate Scenarios",
     "normalized_name": "graduate scenarios",
     "assessment_family": "Biodata & Situational Judgment",
+    "url": "https://www.shl.com/products/product-catalog/view/graduate-scenarios/",
+    "test_type": "B",
     "keywords": [
       "graduate",
       "scenarios",
@@ -12842,6 +13098,8 @@
     "canonical_name": "Graduate Scenarios Narrative Report",
     "normalized_name": "graduate scenarios narrative report",
     "assessment_family": "Biodata & Situational Judgment",
+    "url": "https://www.shl.com/products/product-catalog/view/graduate-scenarios-narrative-report/",
+    "test_type": "B",
     "keywords": [
       "graduate",
       "scenarios",
@@ -13049,6 +13307,8 @@
     "canonical_name": "Graduate Scenarios Profile Report",
     "normalized_name": "graduate scenarios profile report",
     "assessment_family": "Biodata & Situational Judgment",
+    "url": "https://www.shl.com/products/product-catalog/view/graduate-scenarios-profile-report/",
+    "test_type": "B",
     "keywords": [
       "graduate",
       "scenarios",
@@ -13256,6 +13516,8 @@
     "canonical_name": "Hibernate (New)",
     "normalized_name": "hibernate new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/hibernate-new/",
+    "test_type": "K",
     "keywords": [
       "hibernate",
       "new",
@@ -13324,6 +13586,8 @@
     "canonical_name": "HIPAA (Security)",
     "normalized_name": "hipaa security",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/hipaa-security/",
+    "test_type": "K",
     "keywords": [
       "hipaa",
       "security",
@@ -13434,6 +13698,8 @@
     "canonical_name": "HiPo Assessment Report 1.0",
     "normalized_name": "hipo assessment report 1 0",
     "assessment_family": "Competencies",
+    "url": "https://www.shl.com/products/product-catalog/view/hipo-assessment-report-1-0/",
+    "test_type": "CP",
     "keywords": [
       "hipo",
       "assessment",
@@ -13566,6 +13832,8 @@
     "canonical_name": "HiPo Assessment Report 2.0",
     "normalized_name": "hipo assessment report 2 0",
     "assessment_family": "Competencies",
+    "url": "https://www.shl.com/products/product-catalog/view/hipo-assessment-report-2-0/",
+    "test_type": "CP",
     "keywords": [
       "hipo",
       "assessment",
@@ -13692,6 +13960,8 @@
     "canonical_name": "HiPo Unlocking Potential Report 2.0",
     "normalized_name": "hipo unlocking potential report 2 0",
     "assessment_family": "Competencies",
+    "url": "https://www.shl.com/products/product-catalog/view/hipo-unlocking-potential-report-2-0/",
+    "test_type": "C",
     "keywords": [
       "hipo",
       "unlocking",
@@ -13758,6 +14028,8 @@
     "canonical_name": "Housekeeping (New)",
     "normalized_name": "housekeeping new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/housekeeping-new/",
+    "test_type": "K",
     "keywords": [
       "housekeeping",
       "new",
@@ -13836,6 +14108,8 @@
     "canonical_name": "HTML/CSS (New)",
     "normalized_name": "html css new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/htmlcss-new/",
+    "test_type": "K",
     "keywords": [
       "html",
       "css",
@@ -13906,6 +14180,8 @@
     "canonical_name": "HTML5 (New)",
     "normalized_name": "html5 new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/html5-new/",
+    "test_type": "K",
     "keywords": [
       "html5",
       "new",
@@ -13974,6 +14250,8 @@
     "canonical_name": "Human Resources (New)",
     "normalized_name": "human resources new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/human-resources-new/",
+    "test_type": "K",
     "keywords": [
       "human",
       "resources",
@@ -14082,6 +14360,8 @@
     "canonical_name": "IBM DataStage (New)",
     "normalized_name": "ibm datastage new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/ibm-datastage-new/",
+    "test_type": "K",
     "keywords": [
       "ibm",
       "datastage",
@@ -14158,6 +14438,8 @@
     "canonical_name": "IBM Sterling Order Management System (New)",
     "normalized_name": "ibm sterling order management system new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/ibm-sterling-order-management-system-new/",
+    "test_type": "K",
     "keywords": [
       "ibm",
       "sterling",
@@ -14242,6 +14524,8 @@
     "canonical_name": "Industrial Engineering (New)",
     "normalized_name": "industrial engineering new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/industrial-engineering-new/",
+    "test_type": "K",
     "keywords": [
       "industrial",
       "engineering",
@@ -14324,6 +14608,8 @@
     "canonical_name": "Informatica (Architecture) (New)",
     "normalized_name": "informatica architecture new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/informatica-architecture-new/",
+    "test_type": "K",
     "keywords": [
       "informatica",
       "architecture",
@@ -14400,6 +14686,8 @@
     "canonical_name": "Informatica (Developer) (New)",
     "normalized_name": "informatica developer new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/informatica-developer-new/",
+    "test_type": "K",
     "keywords": [
       "informatica",
       "developer",
@@ -14478,6 +14766,8 @@
     "canonical_name": "Instrumentation Engineering (New)",
     "normalized_name": "instrumentation engineering new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/instrumentation-engineering-new/",
+    "test_type": "K",
     "keywords": [
       "instrumentation",
       "engineering",
@@ -14554,6 +14844,8 @@
     "canonical_name": "Interpersonal Communications",
     "normalized_name": "interpersonal communications",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/interpersonal-communications/",
+    "test_type": "K",
     "keywords": [
       "interpersonal",
       "communications",
@@ -14678,6 +14970,8 @@
     "canonical_name": "Interviewing and Hiring Concepts (U.S.)",
     "normalized_name": "interviewing and hiring concepts u s",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/interviewing-and-hiring-concepts-u-s/",
+    "test_type": "K",
     "keywords": [
       "interviewing",
       "hiring",
@@ -14785,6 +15079,8 @@
     "canonical_name": "iOS Development (New)",
     "normalized_name": "ios development new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/ios-development-new/",
+    "test_type": "K",
     "keywords": [
       "ios",
       "development",
@@ -14857,6 +15153,8 @@
     "canonical_name": "ITIL (IT Infrastructure Library) (New)",
     "normalized_name": "itil it infrastructure library new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/itil-it-infrastructure-library-new/",
+    "test_type": "K",
     "keywords": [
       "itil",
       "infrastructure",
@@ -14936,6 +15234,8 @@
     "canonical_name": "Java 2 Platform Enterprise Edition 1.4 Fundamental",
     "normalized_name": "java 2 platform enterprise edition 1 4 fundamental",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/java-2-platform-enterprise-edition-1-4-fundamental/",
+    "test_type": "K",
     "keywords": [
       "java",
       "platform",
@@ -15043,6 +15343,8 @@
     "canonical_name": "Java 8 (New)",
     "normalized_name": "java 8 new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/java-8-new/",
+    "test_type": "K",
     "keywords": [
       "java",
       "new",
@@ -15120,6 +15422,8 @@
     "canonical_name": "Java Design Patterns (New)",
     "normalized_name": "java design patterns new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/java-design-patterns-new/",
+    "test_type": "K",
     "keywords": [
       "java",
       "design",
@@ -15194,6 +15498,8 @@
     "canonical_name": "Java Frameworks (New)",
     "normalized_name": "java frameworks new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/java-frameworks-new/",
+    "test_type": "K",
     "keywords": [
       "java",
       "frameworks",
@@ -15264,6 +15570,8 @@
     "canonical_name": "Java Platform Enterprise Edition 7 (Java EE 7)",
     "normalized_name": "java platform enterprise edition 7 java ee 7",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/java-platform-enterprise-edition-7-java-ee-7/",
+    "test_type": "K",
     "keywords": [
       "java",
       "platform",
@@ -15379,6 +15687,8 @@
     "canonical_name": "Java Web Services (New)",
     "normalized_name": "java web services new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/java-web-services-new/",
+    "test_type": "K",
     "keywords": [
       "java",
       "web",
@@ -15463,6 +15773,8 @@
     "canonical_name": "JavaScript (New)",
     "normalized_name": "javascript new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/javascript-new/",
+    "test_type": "K",
     "keywords": [
       "javascript",
       "new",
@@ -15533,6 +15845,8 @@
     "canonical_name": "Jenkins (New)",
     "normalized_name": "jenkins new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/jenkins-new/",
+    "test_type": "K",
     "keywords": [
       "jenkins",
       "new",
@@ -15605,6 +15919,8 @@
     "canonical_name": "Job Control Language (New)",
     "normalized_name": "job control language new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/job-control-language-new/",
+    "test_type": "K",
     "keywords": [
       "job",
       "control",
@@ -15689,6 +16005,8 @@
     "canonical_name": "jQuery (New)",
     "normalized_name": "jquery new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/jquery-new/",
+    "test_type": "K",
     "keywords": [
       "jquery",
       "new",
@@ -15763,6 +16081,8 @@
     "canonical_name": "Kubernetes (New)",
     "normalized_name": "kubernetes new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/kubernetes-new/",
+    "test_type": "K",
     "keywords": [
       "kubernetes",
       "new",
@@ -15827,6 +16147,8 @@
     "canonical_name": "Linux Administration (New)",
     "normalized_name": "linux administration new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/linux-administration-new/",
+    "test_type": "K",
     "keywords": [
       "linux",
       "administration",
@@ -15897,6 +16219,8 @@
     "canonical_name": "Linux Operating System",
     "normalized_name": "linux operating system",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/linux-operating-system/",
+    "test_type": "K",
     "keywords": [
       "linux",
       "operating",
@@ -15983,6 +16307,8 @@
     "canonical_name": "Linux Programming (General)",
     "normalized_name": "linux programming general",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/linux-programming-general/",
+    "test_type": "K",
     "keywords": [
       "linux",
       "programming",
@@ -16079,6 +16405,8 @@
     "canonical_name": "Load Runner (New)",
     "normalized_name": "load runner new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/load-runner-new/",
+    "test_type": "K",
     "keywords": [
       "load",
       "runner",
@@ -16163,6 +16491,8 @@
     "canonical_name": "Management Scenarios",
     "normalized_name": "management scenarios",
     "assessment_family": "Biodata & Situational Judgment",
+    "url": "https://www.shl.com/products/product-catalog/view/management-scenarios/",
+    "test_type": "B",
     "keywords": [
       "management",
       "scenarios",
@@ -16393,6 +16723,8 @@
     "canonical_name": "Managerial Scenarios Candidate Report",
     "normalized_name": "managerial scenarios candidate report",
     "assessment_family": "Biodata & Situational Judgment",
+    "url": "https://www.shl.com/products/product-catalog/view/managerial-scenarios-candidate-report/",
+    "test_type": "B",
     "keywords": [
       "managerial",
       "scenarios",
@@ -16602,6 +16934,8 @@
     "canonical_name": "Managerial Scenarios Narrative Report",
     "normalized_name": "managerial scenarios narrative report",
     "assessment_family": "Biodata & Situational Judgment",
+    "url": "https://www.shl.com/products/product-catalog/view/managerial-scenarios-narrative-report/",
+    "test_type": "B",
     "keywords": [
       "managerial",
       "scenarios",
@@ -16811,6 +17145,8 @@
     "canonical_name": "Managerial Scenarios Profile Report",
     "normalized_name": "managerial scenarios profile report",
     "assessment_family": "Biodata & Situational Judgment",
+    "url": "https://www.shl.com/products/product-catalog/view/managerial-scenarios-profile-report/",
+    "test_type": "B",
     "keywords": [
       "managerial",
       "scenarios",
@@ -17020,6 +17356,8 @@
     "canonical_name": "Manual Testing (New)",
     "normalized_name": "manual testing new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/manual-testing-new/",
+    "test_type": "K",
     "keywords": [
       "manual",
       "testing",
@@ -17100,6 +17438,8 @@
     "canonical_name": "Manufac. & Indust. - Mechanical & Vigilance 8.0",
     "normalized_name": "manufac indust mechanical vigilance 8 0",
     "assessment_family": "Ability & Aptitude",
+    "url": "https://www.shl.com/products/product-catalog/view/mechanical-and-vigilance-focus-8-0/",
+    "test_type": "AP",
     "keywords": [
       "manufac",
       "indust",
@@ -17272,6 +17612,8 @@
     "canonical_name": "Manufac. & Indust. - Safety & Dependability 8.0",
     "normalized_name": "manufac indust safety dependability 8 0",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/safety-and-dependability-focus-8-0/",
+    "test_type": "P",
     "keywords": [
       "manufac",
       "indust",
@@ -17484,6 +17826,8 @@
     "canonical_name": "Manufacturing & Industrial - Essential Focus 8.0",
     "normalized_name": "manufacturing industrial essential focus 8 0",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/essential-focus-8-0/",
+    "test_type": "P",
     "keywords": [
       "manufacturing",
       "industrial",
@@ -17690,6 +18034,8 @@
     "canonical_name": "Manufacturing & Industrial - Mechanical Focus 8.0",
     "normalized_name": "manufacturing industrial mechanical focus 8 0",
     "assessment_family": "Ability & Aptitude",
+    "url": "https://www.shl.com/products/product-catalog/view/mechanical-focus-8-0/",
+    "test_type": "AP",
     "keywords": [
       "manufacturing",
       "industrial",
@@ -17872,6 +18218,8 @@
     "canonical_name": "Manufacturing & Industrial - Vigilance Focus 8.0",
     "normalized_name": "manufacturing industrial vigilance focus 8 0",
     "assessment_family": "Ability & Aptitude",
+    "url": "https://www.shl.com/products/product-catalog/view/vigilance-focus-8-0/",
+    "test_type": "AP",
     "keywords": [
       "manufacturing",
       "industrial",
@@ -18038,6 +18386,8 @@
     "canonical_name": "Marketing (New)",
     "normalized_name": "marketing new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/marketing-new/",
+    "test_type": "K",
     "keywords": [
       "marketing",
       "new",
@@ -18130,6 +18480,8 @@
     "canonical_name": "Maven (New)",
     "normalized_name": "maven new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/maven-new/",
+    "test_type": "K",
     "keywords": [
       "maven",
       "new",
@@ -18204,6 +18556,8 @@
     "canonical_name": "Mechanical Engineering (New)",
     "normalized_name": "mechanical engineering new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/mechanical-engineering-new/",
+    "test_type": "K",
     "keywords": [
       "mechanical",
       "engineering",
@@ -18286,6 +18640,8 @@
     "canonical_name": "Mechatronics Engineering (New)",
     "normalized_name": "mechatronics engineering new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/mechatronics-engineering-new/",
+    "test_type": "K",
     "keywords": [
       "mechatronics",
       "engineering",
@@ -18378,6 +18734,8 @@
     "canonical_name": "Medical Terminology (New)",
     "normalized_name": "medical terminology new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/medical-terminology-new/",
+    "test_type": "K",
     "keywords": [
       "medical",
       "terminology",
@@ -18458,6 +18816,8 @@
     "canonical_name": "Metallurgical Engineering (New)",
     "normalized_name": "metallurgical engineering new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/metallurgical-engineering-new/",
+    "test_type": "K",
     "keywords": [
       "metallurgical",
       "engineering",
@@ -18540,6 +18900,8 @@
     "canonical_name": "MFS 360 Enterprise Leadership Report",
     "normalized_name": "mfs 360 enterprise leadership report",
     "assessment_family": "Development & 360",
+    "url": "https://www.shl.com/products/product-catalog/view/mfs-360-enterprise-leadership-report/",
+    "test_type": "D",
     "keywords": [
       "mfs",
       "360",
@@ -18596,6 +18958,8 @@
     "canonical_name": "MFS 360 UCF Group Report",
     "normalized_name": "mfs 360 ucf group report",
     "assessment_family": "Development & 360",
+    "url": "https://www.shl.com/products/product-catalog/view/mfs-360-ucf-group-report/",
+    "test_type": "D",
     "keywords": [
       "mfs",
       "360",
@@ -18678,6 +19042,8 @@
     "canonical_name": "MFS 360 UCF Performance Potential Dev Tips Report",
     "normalized_name": "mfs 360 ucf performance potential dev tips report",
     "assessment_family": "Development & 360",
+    "url": "https://www.shl.com/products/product-catalog/view/mfs-360-ucf-performance-potential-dev-tips-report/",
+    "test_type": "D",
     "keywords": [
       "mfs",
       "360",
@@ -18804,6 +19170,8 @@
     "canonical_name": "MFS 360 UCF Standard Report",
     "normalized_name": "mfs 360 ucf standard report",
     "assessment_family": "Development & 360",
+    "url": "https://www.shl.com/products/product-catalog/view/mfs-360-ucf-standard-report/",
+    "test_type": "D",
     "keywords": [
       "mfs",
       "360",
@@ -18904,6 +19272,8 @@
     "canonical_name": "Micro Focus Unified Functional Testing (New)",
     "normalized_name": "micro focus unified functional testing new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/micro-focus-unified-functional-testing-new/",
+    "test_type": "K",
     "keywords": [
       "micro",
       "focus",
@@ -18980,6 +19350,8 @@
     "canonical_name": "Microservices (New)",
     "normalized_name": "microservices new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/microservices-new/",
+    "test_type": "K",
     "keywords": [
       "microservices",
       "new",
@@ -19044,6 +19416,8 @@
     "canonical_name": "Microsoft Dynamics Development (New)",
     "normalized_name": "microsoft dynamics development new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/microsoft-dynamics-development-new/",
+    "test_type": "K",
     "keywords": [
       "microsoft",
       "dynamics",
@@ -19138,6 +19512,8 @@
     "canonical_name": "Microsoft Excel 365 - Essentials (New)",
     "normalized_name": "microsoft excel 365 essentials new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/microsoft-excel-365-essentials-new/",
+    "test_type": "KS",
     "keywords": [
       "microsoft",
       "excel",
@@ -19254,6 +19630,8 @@
     "canonical_name": "Microsoft 365 (New)",
     "normalized_name": "microsoft 365 new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/microsoft-excel-365-new/",
+    "test_type": "KS",
     "keywords": [
       "microsoft",
       "365",
@@ -19368,6 +19746,8 @@
     "canonical_name": "Microsoft Outlook 2013 (adaptive)",
     "normalized_name": "microsoft outlook 2013 adaptive",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/microsoft-outlook-2013-adaptive/",
+    "test_type": "K",
     "keywords": [
       "microsoft",
       "outlook",
@@ -19468,6 +19848,8 @@
     "canonical_name": "Microsoft PowerPoint 365 - Essentials (New)",
     "normalized_name": "microsoft powerpoint 365 essentials new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/microsoft-powerpoint-365-essentials-new/",
+    "test_type": "KS",
     "keywords": [
       "microsoft",
       "powerpoint",
@@ -19580,6 +19962,8 @@
     "canonical_name": "Microsoft SQL Server 2014 Programming",
     "normalized_name": "microsoft sql server 2014 programming",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/microsoft-sql-server-2014-programming/",
+    "test_type": "K",
     "keywords": [
       "microsoft",
       "sql",
@@ -19690,6 +20074,8 @@
     "canonical_name": "Microsoft Windows Server 2012 Administration",
     "normalized_name": "microsoft windows server 2012 administration",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/microsoft-windows-server-2012-administration/",
+    "test_type": "K",
     "keywords": [
       "microsoft",
       "windows",
@@ -19794,6 +20180,8 @@
     "canonical_name": "Microsoft Word 365 - Essentials (New)",
     "normalized_name": "microsoft word 365 essentials new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/microsoft-word-365-essentials-new/",
+    "test_type": "KS",
     "keywords": [
       "microsoft",
       "word",
@@ -19900,6 +20288,8 @@
     "canonical_name": "Microsoft Word 365 (New)",
     "normalized_name": "microsoft word 365 new",
     "assessment_family": "Simulations",
+    "url": "https://www.shl.com/products/product-catalog/view/microsoft-word-365-new/",
+    "test_type": "KS",
     "keywords": [
       "microsoft",
       "word",
@@ -20004,6 +20394,8 @@
     "canonical_name": "Mineral Engineering (New)",
     "normalized_name": "mineral engineering new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/mineral-engineering-new/",
+    "test_type": "K",
     "keywords": [
       "mineral",
       "engineering",
@@ -20102,6 +20494,8 @@
     "canonical_name": "Mining Engineering (New)",
     "normalized_name": "mining engineering new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/mining-engineering-new/",
+    "test_type": "K",
     "keywords": [
       "mining",
       "engineering",
@@ -20190,6 +20584,8 @@
     "canonical_name": "Mobility (New)",
     "normalized_name": "mobility new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/mobility-new/",
+    "test_type": "K",
     "keywords": [
       "mobility",
       "new",
@@ -20256,6 +20652,8 @@
     "canonical_name": "Molecular Biology (New)",
     "normalized_name": "molecular biology new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/molecular-biology-new/",
+    "test_type": "K",
     "keywords": [
       "molecular",
       "biology",
@@ -20336,6 +20734,8 @@
     "canonical_name": "MongoDB (New)",
     "normalized_name": "mongodb new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/mongodb-new/",
+    "test_type": "K",
     "keywords": [
       "mongodb",
       "new",
@@ -20416,6 +20816,8 @@
     "canonical_name": "Motivation Questionnaire MQM5",
     "normalized_name": "motivation questionnaire mqm5",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/motivation-questionnaire-mqm5/",
+    "test_type": "P",
     "keywords": [
       "motivation",
       "questionnaire",
@@ -20676,6 +21078,8 @@
     "canonical_name": "MQ Candidate Motivation Report",
     "normalized_name": "mq candidate motivation report",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/mq-candidate-motivation-report/",
+    "test_type": "P",
     "keywords": [
       "mq",
       "candidate",
@@ -20800,6 +21204,8 @@
     "canonical_name": "MQ Employee Motivation Report",
     "normalized_name": "mq employee motivation report",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/mq-employee-motivation-report/",
+    "test_type": "P",
     "keywords": [
       "mq",
       "employee",
@@ -20948,6 +21354,8 @@
     "canonical_name": "MQ Motivation Report Pack",
     "normalized_name": "mq motivation report pack",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/mq-motivation-report-pack/",
+    "test_type": "P",
     "keywords": [
       "mq",
       "motivation",
@@ -21082,6 +21490,8 @@
     "canonical_name": "MQ Profile",
     "normalized_name": "mq profile",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/mq-profile/",
+    "test_type": "P",
     "keywords": [
       "mq",
       "profile",
@@ -21370,6 +21780,8 @@
     "canonical_name": "MS Access (New)",
     "normalized_name": "ms access new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/ms-access-new/",
+    "test_type": "K",
     "keywords": [
       "ms",
       "access",
@@ -21454,6 +21866,8 @@
     "canonical_name": "MS Excel (New)",
     "normalized_name": "ms excel new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/ms-excel-new/",
+    "test_type": "K",
     "keywords": [
       "ms",
       "excel",
@@ -21562,6 +21976,8 @@
     "canonical_name": "MS Office Basic Computer Literacy (New)",
     "normalized_name": "ms office basic computer literacy new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/ms-office-basic-computer-literacy-new/",
+    "test_type": "K",
     "keywords": [
       "ms",
       "office",
@@ -21660,6 +22076,8 @@
     "canonical_name": "MS Office Basic Computer Literacy (Sim) (New)",
     "normalized_name": "ms office basic computer literacy sim new",
     "assessment_family": "Simulations",
+    "url": "https://www.shl.com/products/product-catalog/view/ms-office-basic-computer-literacy-sim-new/",
+    "test_type": "S",
     "keywords": [
       "ms",
       "office",
@@ -21756,6 +22174,8 @@
     "canonical_name": "MS PowerPoint (New)",
     "normalized_name": "ms powerpoint new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/ms-powerpoint-new/",
+    "test_type": "K",
     "keywords": [
       "ms",
       "powerpoint",
@@ -21866,6 +22286,8 @@
     "canonical_name": "MS Word (New)",
     "normalized_name": "ms word new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/ms-word-new/",
+    "test_type": "K",
     "keywords": [
       "ms",
       "word",
@@ -21970,6 +22392,8 @@
     "canonical_name": "MuleSoft Development (New)",
     "normalized_name": "mulesoft development new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/mulesoft-development-new/",
+    "test_type": "K",
     "keywords": [
       "mulesoft",
       "development",
@@ -22052,6 +22476,8 @@
     "canonical_name": "Multitasking Ability",
     "normalized_name": "multitasking ability",
     "assessment_family": "Ability & Aptitude",
+    "url": "https://www.shl.com/products/product-catalog/view/multitasking-ability/",
+    "test_type": "AKS",
     "keywords": [
       "multitasking",
       "ability",
@@ -22226,6 +22652,8 @@
     "canonical_name": "Networking and Implementation (New)",
     "normalized_name": "networking and implementation new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/networking-and-implementation-new/",
+    "test_type": "K",
     "keywords": [
       "networking",
       "implementation",
@@ -22299,6 +22727,8 @@
     "canonical_name": "Node.js (New)",
     "normalized_name": "node js new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/node-js-new/",
+    "test_type": "K",
     "keywords": [
       "node",
       "js",
@@ -22381,6 +22811,8 @@
     "canonical_name": "Nursing (New)",
     "normalized_name": "nursing new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/nursing-new/",
+    "test_type": "K",
     "keywords": [
       "nursing",
       "new",
@@ -22459,6 +22891,8 @@
     "canonical_name": "Occupational Personality Questionnaire OPQ32r",
     "normalized_name": "occupational personality questionnaire opq32r",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/occupational-personality-questionnaire-opq32r/",
+    "test_type": "P",
     "keywords": [
       "occupational",
       "personality",
@@ -22817,6 +23251,8 @@
     "canonical_name": "Operations Management (New)",
     "normalized_name": "operations management new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/operations-management-new/",
+    "test_type": "K",
     "keywords": [
       "operations",
       "management",
@@ -22899,6 +23335,8 @@
     "canonical_name": "OPQ Candidate Plus Report",
     "normalized_name": "opq candidate plus report",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/opq-candidate-plus-report/",
+    "test_type": "P",
     "keywords": [
       "opq",
       "candidate",
@@ -23003,6 +23441,8 @@
     "canonical_name": "OPQ Candidate Report 2.0",
     "normalized_name": "opq candidate report 2 0",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/opq-candidate-report-2-0/",
+    "test_type": "P",
     "keywords": [
       "opq",
       "candidate",
@@ -23063,6 +23503,8 @@
     "canonical_name": "OPQ Emotional Intelligence Report",
     "normalized_name": "opq emotional intelligence report",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/opq-emotional-intelligence-report/",
+    "test_type": "P",
     "keywords": [
       "opq",
       "emotional",
@@ -23217,6 +23659,8 @@
     "canonical_name": "OPQ Leadership Report",
     "normalized_name": "opq leadership report",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/opq-leadership-report/",
+    "test_type": "P",
     "keywords": [
       "opq",
       "leadership",
@@ -23367,6 +23811,8 @@
     "canonical_name": "OPQ Manager Plus Report",
     "normalized_name": "opq manager plus report",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/opq-manager-plus-report/",
+    "test_type": "P",
     "keywords": [
       "opq",
       "manager",
@@ -23671,6 +24117,8 @@
     "canonical_name": "OPQ Manager Plus Report 2.0",
     "normalized_name": "opq manager plus report 2 0",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/opq-manager-plus-report-2-0/",
+    "test_type": "P",
     "keywords": [
       "opq",
       "manager",
@@ -23790,6 +24238,8 @@
     "canonical_name": "OPQ Maximising your Learning Report",
     "normalized_name": "opq maximising your learning report",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/opq-maximising-your-learning-report/",
+    "test_type": "P",
     "keywords": [
       "opq",
       "maximising",
@@ -23919,6 +24369,8 @@
     "canonical_name": "OPQ MQ Sales Report",
     "normalized_name": "opq mq sales report",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/opq-mq-sales-report/",
+    "test_type": "P",
     "keywords": [
       "opq",
       "mq",
@@ -24239,6 +24691,8 @@
     "canonical_name": "OPQ Premium Plus Report",
     "normalized_name": "opq premium plus report",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/opq-premium-plus-report/",
+    "test_type": "P",
     "keywords": [
       "opq",
       "premium",
@@ -24351,6 +24805,8 @@
     "canonical_name": "OPQ Premium Plus Report 2.0",
     "normalized_name": "opq premium plus report 2 0",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/opq-premium-plus-report-2-0/",
+    "test_type": "P",
     "keywords": [
       "opq",
       "premium",
@@ -24464,6 +24920,8 @@
     "canonical_name": "OPQ Profile Report",
     "normalized_name": "opq profile report",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/opq-profile-report/",
+    "test_type": "P",
     "keywords": [
       "opq",
       "profile",
@@ -24792,6 +25250,8 @@
     "canonical_name": "OPQ Team Impact Group Development Report",
     "normalized_name": "opq team impact group development report",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/opq-team-impact-group-development-report/",
+    "test_type": "P",
     "keywords": [
       "opq",
       "team",
@@ -24948,6 +25408,8 @@
     "canonical_name": "OPQ Team Impact Individual Development Report",
     "normalized_name": "opq team impact individual development report",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/opq-team-impact-individual-development-report/",
+    "test_type": "P",
     "keywords": [
       "opq",
       "team",
@@ -25096,6 +25558,8 @@
     "canonical_name": "OPQ Team Impact Selection Report",
     "normalized_name": "opq team impact selection report",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/opq-team-impact-selection-report/",
+    "test_type": "P",
     "keywords": [
       "opq",
       "team",
@@ -25244,6 +25708,8 @@
     "canonical_name": "OPQ Team Types & Leadership Styles Profile",
     "normalized_name": "opq team types leadership styles profile",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/opq-team-types-and-leadership-styles-profile/",
+    "test_type": "P",
     "keywords": [
       "opq",
       "team",
@@ -25428,6 +25894,8 @@
     "canonical_name": "OPQ Team Types and Leadership Styles Report",
     "normalized_name": "opq team types and leadership styles report",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/opq-team-types-and-leadership-styles-report/",
+    "test_type": "P",
     "keywords": [
       "opq",
       "team",
@@ -25607,6 +26075,8 @@
     "canonical_name": "OPQ UCF Development Action Planner Report 1.0",
     "normalized_name": "opq ucf development action planner report 1 0",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/opq-ucf-development-action-planner-report/",
+    "test_type": "P",
     "keywords": [
       "opq",
       "ucf",
@@ -25859,6 +26329,8 @@
     "canonical_name": "OPQ UCF Development Action Planner Report 2.0",
     "normalized_name": "opq ucf development action planner report 2 0",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/opq-ucf-development-action-planner-report-2-0/",
+    "test_type": "P",
     "keywords": [
       "opq",
       "ucf",
@@ -25968,6 +26440,8 @@
     "canonical_name": "OPQ Universal Competency Report 1.0",
     "normalized_name": "opq universal competency report 1 0",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/opq-universal-competency-report/",
+    "test_type": "P",
     "keywords": [
       "opq",
       "universal",
@@ -26294,6 +26768,8 @@
     "canonical_name": "OPQ Universal Competency Report 2.0",
     "normalized_name": "opq universal competency report 2 0",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/opq-universal-competency-report-2-0/",
+    "test_type": "P",
     "keywords": [
       "opq",
       "universal",
@@ -26415,6 +26891,8 @@
     "canonical_name": "OPQ User and Managers Report",
     "normalized_name": "opq user and managers report",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/opq-user-and-managers-report/",
+    "test_type": "P",
     "keywords": [
       "opq",
       "user",
@@ -26592,6 +27070,8 @@
     "canonical_name": "OPQ User Report",
     "normalized_name": "opq user report",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/opq-user-report/",
+    "test_type": "PS",
     "keywords": [
       "opq",
       "user",
@@ -26784,6 +27264,8 @@
     "canonical_name": "Oracle DBA (Advanced Level) (New)",
     "normalized_name": "oracle dba advanced level new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/oracle-dba-advanced-level-new/",
+    "test_type": "K",
     "keywords": [
       "oracle",
       "dba",
@@ -26874,6 +27356,8 @@
     "canonical_name": "Oracle DBA (Entry Level) (New)",
     "normalized_name": "oracle dba entry level new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/oracle-dba-entry-level-new/",
+    "test_type": "K",
     "keywords": [
       "oracle",
       "dba",
@@ -26956,6 +27440,8 @@
     "canonical_name": "Oracle PL/SQL (New)",
     "normalized_name": "oracle pl sql new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/oracle-plsql-new/",
+    "test_type": "K",
     "keywords": [
       "oracle",
       "pl",
@@ -27032,6 +27518,8 @@
     "canonical_name": "Oracle WebLogic Server (New)",
     "normalized_name": "oracle weblogic server new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/oracle-weblogic-server-new/",
+    "test_type": "K",
     "keywords": [
       "oracle",
       "weblogic",
@@ -27110,6 +27598,8 @@
     "canonical_name": "Organic Chemistry (New)",
     "normalized_name": "organic chemistry new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/organic-chemistry-new/",
+    "test_type": "K",
     "keywords": [
       "organic",
       "chemistry",
@@ -27180,6 +27670,8 @@
     "canonical_name": "Paint Technology (New)",
     "normalized_name": "paint technology new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/paint-technology-new/",
+    "test_type": "K",
     "keywords": [
       "paint",
       "technology",
@@ -27266,6 +27758,8 @@
     "canonical_name": "Pediatrics (New)",
     "normalized_name": "pediatrics new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/pediatrics-new/",
+    "test_type": "K",
     "keywords": [
       "pediatrics",
       "new",
@@ -27344,6 +27838,8 @@
     "canonical_name": "Pega Development (New)",
     "normalized_name": "pega development new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/pega-development-new/",
+    "test_type": "K",
     "keywords": [
       "pega",
       "development",
@@ -27430,6 +27926,8 @@
     "canonical_name": "Perl (New)",
     "normalized_name": "perl new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/perl-new/",
+    "test_type": "K",
     "keywords": [
       "perl",
       "new",
@@ -27506,6 +28004,8 @@
     "canonical_name": "Petrochemical Engineering (New)",
     "normalized_name": "petrochemical engineering new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/petrochemical-engineering-new/",
+    "test_type": "K",
     "keywords": [
       "petrochemical",
       "engineering",
@@ -27586,6 +28086,8 @@
     "canonical_name": "Petroleum Engineering (New)",
     "normalized_name": "petroleum engineering new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/petroleum-engineering-new/",
+    "test_type": "K",
     "keywords": [
       "petroleum",
       "engineering",
@@ -27660,6 +28162,8 @@
     "canonical_name": "Pharmaceutical Analysis (New)",
     "normalized_name": "pharmaceutical analysis new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/pharmaceutical-analysis-new/",
+    "test_type": "K",
     "keywords": [
       "pharmaceutical",
       "analysis",
@@ -27740,6 +28244,8 @@
     "canonical_name": "Pharmaceutical Chemistry (New)",
     "normalized_name": "pharmaceutical chemistry new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/pharmaceutical-chemistry-new/",
+    "test_type": "K",
     "keywords": [
       "pharmaceutical",
       "chemistry",
@@ -27816,6 +28322,8 @@
     "canonical_name": "Pharmaceutical Science (New)",
     "normalized_name": "pharmaceutical science new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/pharmaceutical-science-new/",
+    "test_type": "K",
     "keywords": [
       "pharmaceutical",
       "science",
@@ -27892,6 +28400,8 @@
     "canonical_name": "Pharmaceutics (New)",
     "normalized_name": "pharmaceutics new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/pharmaceutics-new/",
+    "test_type": "K",
     "keywords": [
       "pharmaceutics",
       "new",
@@ -27974,6 +28484,8 @@
     "canonical_name": "Pharmacology (New)",
     "normalized_name": "pharmacology new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/pharmacology-new/",
+    "test_type": "K",
     "keywords": [
       "pharmacology",
       "new",
@@ -28066,6 +28578,8 @@
     "canonical_name": "PHP (New)",
     "normalized_name": "php new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/php-new/",
+    "test_type": "K",
     "keywords": [
       "php",
       "new",
@@ -28138,6 +28652,8 @@
     "canonical_name": "PJM Development Report",
     "normalized_name": "pjm development report",
     "assessment_family": "Competencies",
+    "url": "https://www.shl.com/products/product-catalog/view/pjm-development-report/",
+    "test_type": "ACP",
     "keywords": [
       "pjm",
       "development",
@@ -28290,6 +28806,8 @@
     "canonical_name": "PJM Selection Report",
     "normalized_name": "pjm selection report",
     "assessment_family": "Ability & Aptitude",
+    "url": "https://www.shl.com/products/product-catalog/view/pjm-selection-report/",
+    "test_type": "ACP",
     "keywords": [
       "pjm",
       "selection",
@@ -28556,6 +29074,8 @@
     "canonical_name": "Polymer Engineering (New)",
     "normalized_name": "polymer engineering new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/polymer-engineering-new/",
+    "test_type": "K",
     "keywords": [
       "polymer",
       "engineering",
@@ -28636,6 +29156,8 @@
     "canonical_name": "Power Electronics and Drives (New)",
     "normalized_name": "power electronics and drives new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/power-electronics-and-drives-new/",
+    "test_type": "K",
     "keywords": [
       "power",
       "electronics",
@@ -28717,6 +29239,8 @@
     "canonical_name": "Power System Engineering (New)",
     "normalized_name": "power system engineering new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/power-system-engineering-new/",
+    "test_type": "K",
     "keywords": [
       "power",
       "system",
@@ -28805,6 +29329,8 @@
     "canonical_name": "Prism (New)",
     "normalized_name": "prism new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/prism-new/",
+    "test_type": "K",
     "keywords": [
       "prism",
       "new",
@@ -28875,6 +29401,8 @@
     "canonical_name": "Production and Industrial Engineering (New)",
     "normalized_name": "production and industrial engineering new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/production-and-industrial-engineering-new/",
+    "test_type": "K",
     "keywords": [
       "production",
       "industrial",
@@ -28958,6 +29486,8 @@
     "canonical_name": "Production Engineering (New)",
     "normalized_name": "production engineering new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/production-engineering-new/",
+    "test_type": "K",
     "keywords": [
       "production",
       "engineering",
@@ -29042,6 +29572,8 @@
     "canonical_name": "Programming Concepts",
     "normalized_name": "programming concepts",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/programming-concepts/",
+    "test_type": "K",
     "keywords": [
       "programming",
       "concepts",
@@ -29152,6 +29684,8 @@
     "canonical_name": "Project Management (2013)",
     "normalized_name": "project management 2013",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/project-management-2013/",
+    "test_type": "K",
     "keywords": [
       "project",
       "management",
@@ -29274,6 +29808,8 @@
     "canonical_name": "Proofreading v1",
     "normalized_name": "proofreading v1",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/proofreading-v1/",
+    "test_type": "K",
     "keywords": [
       "proofreading",
       "v1",
@@ -29352,6 +29888,8 @@
     "canonical_name": "Python (New)",
     "normalized_name": "python new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/python-new/",
+    "test_type": "K",
     "keywords": [
       "python",
       "new",
@@ -29420,6 +29958,8 @@
     "canonical_name": "R Programming (New)",
     "normalized_name": "r programming new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/r-programming-new/",
+    "test_type": "K",
     "keywords": [
       "programming",
       "new",
@@ -29485,6 +30025,8 @@
     "canonical_name": "ReactJS (New)",
     "normalized_name": "reactjs new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/reactjs-new/",
+    "test_type": "K",
     "keywords": [
       "reactjs",
       "new",
@@ -29563,6 +30105,8 @@
     "canonical_name": "Reading Comprehension - English v1",
     "normalized_name": "reading comprehension english v1",
     "assessment_family": "Ability & Aptitude",
+    "url": "https://www.shl.com/products/product-catalog/view/reading-comprehension-english-v1/",
+    "test_type": "A",
     "keywords": [
       "reading",
       "comprehension",
@@ -29713,6 +30257,8 @@
     "canonical_name": "Reading Comprehension - Spanish v1",
     "normalized_name": "reading comprehension spanish v1",
     "assessment_family": "Ability & Aptitude",
+    "url": "https://www.shl.com/products/product-catalog/view/reading-comprehension-spanish-v1/",
+    "test_type": "A",
     "keywords": [
       "reading",
       "comprehension",
@@ -29863,6 +30409,8 @@
     "canonical_name": "Reading Comprehension v2",
     "normalized_name": "reading comprehension v2",
     "assessment_family": "Ability & Aptitude",
+    "url": "https://www.shl.com/products/product-catalog/view/reading-comprehension-v2/",
+    "test_type": "A",
     "keywords": [
       "reading",
       "comprehension",
@@ -30013,6 +30561,8 @@
     "canonical_name": "RemoteWorkQ",
     "normalized_name": "remoteworkq",
     "assessment_family": "Competencies",
+    "url": "https://www.shl.com/products/product-catalog/view/remoteworkq/",
+    "test_type": "C",
     "keywords": [
       "remoteworkq",
       "using",
@@ -30263,6 +30813,8 @@
     "canonical_name": "RemoteWorkQ Manager Report",
     "normalized_name": "remoteworkq manager report",
     "assessment_family": "Competencies",
+    "url": "https://www.shl.com/products/product-catalog/view/remoteworkq-manager-report/",
+    "test_type": "C",
     "keywords": [
       "remoteworkq",
       "manager",
@@ -30444,6 +30996,8 @@
     "canonical_name": "RemoteWorkQ Participant Report",
     "normalized_name": "remoteworkq participant report",
     "assessment_family": "Competencies",
+    "url": "https://www.shl.com/products/product-catalog/view/remoteworkq-participant-report/",
+    "test_type": "C",
     "keywords": [
       "remoteworkq",
       "participant",
@@ -30627,6 +31181,8 @@
     "canonical_name": "RESTful Web Services (New)",
     "normalized_name": "restful web services new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/restful-web-services-new/",
+    "test_type": "K",
     "keywords": [
       "restful",
       "web",
@@ -30721,6 +31277,8 @@
     "canonical_name": "Retail Sales and Service Simulation",
     "normalized_name": "retail sales and service simulation",
     "assessment_family": "Biodata & Situational Judgment",
+    "url": "https://www.shl.com/products/product-catalog/view/retail-sales-and-service-simulation/",
+    "test_type": "ABKS",
     "keywords": [
       "retail",
       "sales",
@@ -30896,6 +31454,8 @@
     "canonical_name": "Reviewing Forms - US (R1)",
     "normalized_name": "reviewing forms us r1",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/reviewing-forms-us-r1/",
+    "test_type": "K",
     "keywords": [
       "reviewing",
       "forms",
@@ -30986,6 +31546,8 @@
     "canonical_name": "Ruby (New)",
     "normalized_name": "ruby new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/ruby-new/",
+    "test_type": "K",
     "keywords": [
       "ruby",
       "new",
@@ -31082,6 +31644,8 @@
     "canonical_name": "Ruby on Rails (New)",
     "normalized_name": "ruby on rails new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/ruby-on-rails-new/",
+    "test_type": "K",
     "keywords": [
       "ruby",
       "rails",
@@ -31153,6 +31717,8 @@
     "canonical_name": "Sales & Service Phone Simulation",
     "normalized_name": "sales service phone simulation",
     "assessment_family": "Simulations",
+    "url": "https://www.shl.com/products/product-catalog/view/sales-and-service-phone-simulation/",
+    "test_type": "BS",
     "keywords": [
       "sales",
       "service",
@@ -31351,6 +31917,8 @@
     "canonical_name": "Sales & Service Phone Solution",
     "normalized_name": "sales service phone solution",
     "assessment_family": "Biodata & Situational Judgment",
+    "url": "https://www.shl.com/products/product-catalog/view/sales-and-service-phone-solution/",
+    "test_type": "BPS",
     "keywords": [
       "sales",
       "service",
@@ -31607,6 +32175,8 @@
     "canonical_name": "Sales Interview Guide",
     "normalized_name": "sales interview guide",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/sales-interview-guide/",
+    "test_type": "P",
     "keywords": [
       "sales",
       "interview",
@@ -31715,6 +32285,8 @@
     "canonical_name": "Sales Profiler Cards",
     "normalized_name": "sales profiler cards",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/sales-profiler-cards/",
+    "test_type": "P",
     "keywords": [
       "sales",
       "profiler",
@@ -31835,6 +32407,8 @@
     "canonical_name": "Sales Transformation 1.0 - Individual Contributor",
     "normalized_name": "sales transformation 1 0 individual contributor",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/sales-transformation-report-individual-contributor/",
+    "test_type": "P",
     "keywords": [
       "sales",
       "transformation",
@@ -31952,6 +32526,8 @@
     "canonical_name": "Sales Transformation 2.0 - Individual Contributor",
     "normalized_name": "sales transformation 2 0 individual contributor",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/salestransformationreport2-0-individualcontributor/",
+    "test_type": "P",
     "keywords": [
       "sales",
       "transformation",
@@ -32069,6 +32645,8 @@
     "canonical_name": "Sales Transformation Report 1.0 - Sales Manager",
     "normalized_name": "sales transformation report 1 0 sales manager",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/sales-transformation-report-sales-manager/",
+    "test_type": "P",
     "keywords": [
       "sales",
       "transformation",
@@ -32180,6 +32758,8 @@
     "canonical_name": "Sales Transformation Report 2.0 - Sales Manager",
     "normalized_name": "sales transformation report 2 0 sales manager",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/sales-transformation-report-2-0-sales-manager/",
+    "test_type": "P",
     "keywords": [
       "sales",
       "transformation",
@@ -32291,6 +32871,8 @@
     "canonical_name": "Salesforce Development (New)",
     "normalized_name": "salesforce development new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/salesforce-development-new/",
+    "test_type": "K",
     "keywords": [
       "salesforce",
       "development",
@@ -32369,6 +32951,8 @@
     "canonical_name": "SAP ABAP (Advanced Level) (New)",
     "normalized_name": "sap abap advanced level new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/sap-abap-advanced-level-new/",
+    "test_type": "K",
     "keywords": [
       "sap",
       "abap",
@@ -32461,6 +33045,8 @@
     "canonical_name": "SAP ABAP (Intermediate Level) (New)",
     "normalized_name": "sap abap intermediate level new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/sap-abap-intermediate-level-new/",
+    "test_type": "K",
     "keywords": [
       "sap",
       "abap",
@@ -32563,6 +33149,8 @@
     "canonical_name": "SAP Basis (New)",
     "normalized_name": "sap basis new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/sap-basis-new/",
+    "test_type": "K",
     "keywords": [
       "sap",
       "basis",
@@ -32645,6 +33233,8 @@
     "canonical_name": "SAP Business Objects WebI (New)",
     "normalized_name": "sap business objects webi new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/sap-business-objects-webi-new/",
+    "test_type": "K",
     "keywords": [
       "sap",
       "business",
@@ -32723,6 +33313,8 @@
     "canonical_name": "SAP BW (Business Warehouse) (New)",
     "normalized_name": "sap bw business warehouse new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/sap-bw-business-warehouse-new/",
+    "test_type": "K",
     "keywords": [
       "sap",
       "bw",
@@ -32811,6 +33403,8 @@
     "canonical_name": "SAP HCM (Human Capital Management) (New)",
     "normalized_name": "sap hcm human capital management new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/sap-hcm-human-capital-management-new/",
+    "test_type": "K",
     "keywords": [
       "sap",
       "hcm",
@@ -32893,6 +33487,8 @@
     "canonical_name": "SAP Hybris (New)",
     "normalized_name": "sap hybris new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/sap-hybris-new/",
+    "test_type": "K",
     "keywords": [
       "sap",
       "hybris",
@@ -32979,6 +33575,8 @@
     "canonical_name": "SAP Materials Management (New)",
     "normalized_name": "sap materials management new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/sap-materials-management-new/",
+    "test_type": "K",
     "keywords": [
       "sap",
       "materials",
@@ -33075,6 +33673,8 @@
     "canonical_name": "SAP SD (Sales and Distribution) (New)",
     "normalized_name": "sap sd sales and distribution new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/sap-sd-sales-and-distribution-new/",
+    "test_type": "K",
     "keywords": [
       "sap",
       "sd",
@@ -33166,6 +33766,8 @@
     "canonical_name": "Search Engine Optimization (New)",
     "normalized_name": "search engine optimization new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/search-engine-optimization-new/",
+    "test_type": "K",
     "keywords": [
       "search",
       "engine",
@@ -33252,6 +33854,8 @@
     "canonical_name": "Selenium (New)",
     "normalized_name": "selenium new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/selenium-new/",
+    "test_type": "K",
     "keywords": [
       "selenium",
       "new",
@@ -33336,6 +33940,8 @@
     "canonical_name": "Shell Scripting (New)",
     "normalized_name": "shell scripting new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/shell-scripting-new/",
+    "test_type": "K",
     "keywords": [
       "shell",
       "scripting",
@@ -33414,6 +34020,8 @@
     "canonical_name": "SHL Verify Interactive - Inductive Reasoning",
     "normalized_name": "shl verify interactive inductive reasoning",
     "assessment_family": "Ability & Aptitude",
+    "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-inductive-reasoning/",
+    "test_type": "AS",
     "keywords": [
       "shl",
       "verify",
@@ -33638,6 +34246,8 @@
     "canonical_name": "SHL Verify Interactive – Deductive Reasoning",
     "normalized_name": "shl verify interactive deductive reasoning",
     "assessment_family": "Ability & Aptitude",
+    "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-deductive-reasoning/",
+    "test_type": "AS",
     "keywords": [
       "shl",
       "verify",
@@ -33868,6 +34478,8 @@
     "canonical_name": "SHL Verify Interactive – Numerical Reasoning",
     "normalized_name": "shl verify interactive numerical reasoning",
     "assessment_family": "Ability & Aptitude",
+    "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-numerical-reasoning/",
+    "test_type": "AS",
     "keywords": [
       "shl",
       "verify",
@@ -34084,6 +34696,8 @@
     "canonical_name": "SHL Verify Interactive G+",
     "normalized_name": "shl verify interactive g",
     "assessment_family": "Ability & Aptitude",
+    "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-g/",
+    "test_type": "A",
     "keywords": [
       "shl",
       "verify",
@@ -34355,6 +34969,8 @@
     "canonical_name": "SHL Verify Interactive Numerical Calculation",
     "normalized_name": "shl verify interactive numerical calculation",
     "assessment_family": "Ability & Aptitude",
+    "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-numerical-calculation/",
+    "test_type": "A",
     "keywords": [
       "shl",
       "verify",
@@ -34467,6 +35083,8 @@
     "canonical_name": "Siebel Development (New)",
     "normalized_name": "siebel development new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/siebel-development-new/",
+    "test_type": "K",
     "keywords": [
       "siebel",
       "development",
@@ -34555,6 +35173,8 @@
     "canonical_name": "Smart Interview Live",
     "normalized_name": "smart interview live",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/smart-interview-live/",
+    "test_type": "P",
     "keywords": [
       "smart",
       "interview",
@@ -34777,6 +35397,8 @@
     "canonical_name": "Smart Interview Live Coding",
     "normalized_name": "smart interview live coding",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/smart-interview-live-coding/",
+    "test_type": "K",
     "keywords": [
       "smart",
       "interview",
@@ -34925,6 +35547,8 @@
     "canonical_name": "Smart Interview On Demand",
     "normalized_name": "smart interview on demand",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/smart-interview-on-demand/",
+    "test_type": "P",
     "keywords": [
       "smart",
       "interview",
@@ -35234,6 +35858,8 @@
     "canonical_name": "Social Media (New)",
     "normalized_name": "social media new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/social-media-new/",
+    "test_type": "K",
     "keywords": [
       "social",
       "media",
@@ -35318,6 +35944,8 @@
     "canonical_name": "Software Business Analysis",
     "normalized_name": "software business analysis",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/software-business-analysis/",
+    "test_type": "K",
     "keywords": [
       "software",
       "business",
@@ -35444,6 +36072,8 @@
     "canonical_name": "SonarQube (New)",
     "normalized_name": "sonarqube new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/sonarqube-new/",
+    "test_type": "K",
     "keywords": [
       "sonarqube",
       "new",
@@ -35520,6 +36150,8 @@
     "canonical_name": "Spelling (U.S.) (New)",
     "normalized_name": "spelling u s new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/spelling-u-s-new/",
+    "test_type": "K",
     "keywords": [
       "spelling",
       "new",
@@ -35586,6 +36218,8 @@
     "canonical_name": "Split Screen Typing Test - Form 1",
     "normalized_name": "split screen typing test form 1",
     "assessment_family": "Ability & Aptitude",
+    "url": "https://www.shl.com/products/product-catalog/view/split-screen-typing-test-form-1/",
+    "test_type": "AK",
     "keywords": [
       "split",
       "screen",
@@ -35725,6 +36359,8 @@
     "canonical_name": "Spring (New)",
     "normalized_name": "spring new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/spring-new/",
+    "test_type": "K",
     "keywords": [
       "spring",
       "new",
@@ -35793,6 +36429,8 @@
     "canonical_name": "SQL (New)",
     "normalized_name": "sql new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/sql-new/",
+    "test_type": "K",
     "keywords": [
       "sql",
       "new",
@@ -35861,6 +36499,8 @@
     "canonical_name": "SQL Server (New)",
     "normalized_name": "sql server new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/sql-server-new/",
+    "test_type": "K",
     "keywords": [
       "sql",
       "server",
@@ -35943,6 +36583,8 @@
     "canonical_name": "SQL Server Analysis Services (SSAS) (New)",
     "normalized_name": "sql server analysis services ssas new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/sql-server-analysis-services-%28ssas%29-%28new%29/",
+    "test_type": "K",
     "keywords": [
       "sql",
       "server",
@@ -36023,6 +36665,8 @@
     "canonical_name": "SQL Server Integration Services (SSIS) (New)",
     "normalized_name": "sql server integration services ssis new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/sql-server-integration-services-ssis-new/",
+    "test_type": "K",
     "keywords": [
       "sql",
       "server",
@@ -36125,6 +36769,8 @@
     "canonical_name": "SQL Server Reporting Services (SSRS) (New)",
     "normalized_name": "sql server reporting services ssrs new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/sql-server-reporting-services-ssrs-new/",
+    "test_type": "K",
     "keywords": [
       "sql",
       "server",
@@ -36221,6 +36867,8 @@
     "canonical_name": "Statistical Analysis System (New)",
     "normalized_name": "statistical analysis system new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/statistical-analysis-system-new/",
+    "test_type": "K",
     "keywords": [
       "statistical",
       "analysis",
@@ -36293,6 +36941,8 @@
     "canonical_name": "Struts (New)",
     "normalized_name": "struts new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/struts-new/",
+    "test_type": "K",
     "keywords": [
       "struts",
       "new",
@@ -36361,6 +37011,8 @@
     "canonical_name": "SVAR - Spoken English (AUS)",
     "normalized_name": "svar spoken english aus",
     "assessment_family": "Simulations",
+    "url": "https://www.shl.com/products/product-catalog/view/svar-spoken-english-aus/",
+    "test_type": "S",
     "keywords": [
       "svar",
       "spoken",
@@ -36477,6 +37129,8 @@
     "canonical_name": "SVAR - Spoken English (Indian Accent) (New)",
     "normalized_name": "svar spoken english indian accent new",
     "assessment_family": "Simulations",
+    "url": "https://www.shl.com/products/product-catalog/view/svar-spoken-english-indian-accent-new/",
+    "test_type": "S",
     "keywords": [
       "svar",
       "spoken",
@@ -36595,6 +37249,8 @@
     "canonical_name": "SVAR - Spoken English (U.K.)",
     "normalized_name": "svar spoken english u k",
     "assessment_family": "Simulations",
+    "url": "https://www.shl.com/products/product-catalog/view/svar-spoken-english-u-k/",
+    "test_type": "S",
     "keywords": [
       "svar",
       "spoken",
@@ -36711,6 +37367,8 @@
     "canonical_name": "SVAR - Spoken English (US) (New)",
     "normalized_name": "svar spoken english us new",
     "assessment_family": "Simulations",
+    "url": "https://www.shl.com/products/product-catalog/view/svar-spoken-english-us-new/",
+    "test_type": "S",
     "keywords": [
       "svar",
       "spoken",
@@ -36825,6 +37483,8 @@
     "canonical_name": "SVAR - Spoken French (Canadian) (New)",
     "normalized_name": "svar spoken french canadian new",
     "assessment_family": "Simulations",
+    "url": "https://www.shl.com/products/product-catalog/view/svar-spoken-french-canadian-new/",
+    "test_type": "S",
     "keywords": [
       "svar",
       "spoken",
@@ -36963,6 +37623,8 @@
     "canonical_name": "SVAR - Spoken French (European) (New)",
     "normalized_name": "svar spoken french european new",
     "assessment_family": "Simulations",
+    "url": "https://www.shl.com/products/product-catalog/view/svar-spoken-french-european-new/",
+    "test_type": "S",
     "keywords": [
       "svar",
       "spoken",
@@ -37099,6 +37761,8 @@
     "canonical_name": "SVAR - Spoken Spanish (Castilian) (New)",
     "normalized_name": "svar spoken spanish castilian new",
     "assessment_family": "Simulations",
+    "url": "https://www.shl.com/products/product-catalog/view/svar-spoken-spanish-castilian-new/",
+    "test_type": "S",
     "keywords": [
       "svar",
       "spoken",
@@ -37233,6 +37897,8 @@
     "canonical_name": "SVAR - Spoken Spanish (North American) (New)",
     "normalized_name": "svar spoken spanish north american new",
     "assessment_family": "Simulations",
+    "url": "https://www.shl.com/products/product-catalog/view/svar-spoken-spanish-north-american-new/",
+    "test_type": "S",
     "keywords": [
       "svar",
       "spoken",
@@ -37371,6 +38037,8 @@
     "canonical_name": "Swing (New)",
     "normalized_name": "swing new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/swing-new/",
+    "test_type": "K",
     "keywords": [
       "swing",
       "new",
@@ -37439,6 +38107,8 @@
     "canonical_name": "Tableau (New)",
     "normalized_name": "tableau new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/tableau-new/",
+    "test_type": "K",
     "keywords": [
       "tableau",
       "new",
@@ -37519,6 +38189,8 @@
     "canonical_name": "Telecommunications Engineering (New)",
     "normalized_name": "telecommunications engineering new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/telecommunications-engineering-new/",
+    "test_type": "K",
     "keywords": [
       "telecommunications",
       "engineering",
@@ -37601,6 +38273,8 @@
     "canonical_name": "Teradata Development (New)",
     "normalized_name": "teradata development new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/teradata-development-new/",
+    "test_type": "K",
     "keywords": [
       "teradata",
       "development",
@@ -37709,6 +38383,8 @@
     "canonical_name": "Time Management (U.S.)",
     "normalized_name": "time management u s",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/time-management-u-s/",
+    "test_type": "K",
     "keywords": [
       "time",
       "management",
@@ -37827,6 +38503,8 @@
     "canonical_name": "Training Development",
     "normalized_name": "training development",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/training-development/",
+    "test_type": "K",
     "keywords": [
       "training",
       "development",
@@ -37931,6 +38609,8 @@
     "canonical_name": "Typing (New)",
     "normalized_name": "typing new",
     "assessment_family": "Simulations",
+    "url": "https://www.shl.com/products/product-catalog/view/typing-new/",
+    "test_type": "S",
     "keywords": [
       "typing",
       "new",
@@ -37983,6 +38663,8 @@
     "canonical_name": "UiPath RPA Development (New)",
     "normalized_name": "uipath rpa development new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/uipath-rpa-development-new/",
+    "test_type": "K",
     "keywords": [
       "uipath",
       "rpa",
@@ -38059,6 +38741,8 @@
     "canonical_name": "Universal Competency Framework Interview Guide",
     "normalized_name": "universal competency framework interview guide",
     "assessment_family": "Competencies",
+    "url": "https://www.shl.com/products/product-catalog/view/universal-competency-framework-interview-guide/",
+    "test_type": "CP",
     "keywords": [
       "universal",
       "competency",
@@ -38191,6 +38875,8 @@
     "canonical_name": "Universal Competency Framework Job profiling guide",
     "normalized_name": "universal competency framework job profiling guide",
     "assessment_family": "Competencies",
+    "url": "https://www.shl.com/products/product-catalog/view/universal-competency-framework-job-profiling-guide/",
+    "test_type": "CP",
     "keywords": [
       "universal",
       "competency",
@@ -38333,6 +39019,8 @@
     "canonical_name": "Universal Competency Framework Profiler Cards (44)",
     "normalized_name": "universal competency framework profiler cards 44",
     "assessment_family": "Competencies",
+    "url": "https://www.shl.com/products/product-catalog/view/universal-competency-framework-profiler-cards-44/",
+    "test_type": "CP",
     "keywords": [
       "universal",
       "competency",
@@ -38519,6 +39207,8 @@
     "canonical_name": "UNIX (New)",
     "normalized_name": "unix new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/unix-new/",
+    "test_type": "K",
     "keywords": [
       "unix",
       "new",
@@ -38597,6 +39287,8 @@
     "canonical_name": "VB.NET (New)",
     "normalized_name": "vb net new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/vb-net-new/",
+    "test_type": "K",
     "keywords": [
       "vb",
       "net",
@@ -38675,6 +39367,8 @@
     "canonical_name": "Verify - Deductive Reasoning",
     "normalized_name": "verify deductive reasoning",
     "assessment_family": "Ability & Aptitude",
+    "url": "https://www.shl.com/products/product-catalog/view/verify-deductive-reasoning/",
+    "test_type": "A",
     "keywords": [
       "verify",
       "deductive",
@@ -39019,6 +39713,8 @@
     "canonical_name": "Verify - Following Instructions",
     "normalized_name": "verify following instructions",
     "assessment_family": "Ability & Aptitude",
+    "url": "https://www.shl.com/products/product-catalog/view/verify-following-instructions/",
+    "test_type": "A",
     "keywords": [
       "verify",
       "following",
@@ -39145,6 +39841,8 @@
     "canonical_name": "Verify - G+",
     "normalized_name": "verify g",
     "assessment_family": "Ability & Aptitude",
+    "url": "https://www.shl.com/products/product-catalog/view/verify-g/",
+    "test_type": "A",
     "keywords": [
       "verify",
       "test",
@@ -39452,6 +40150,8 @@
     "canonical_name": "Verify - General Ability Screen",
     "normalized_name": "verify general ability screen",
     "assessment_family": "Ability & Aptitude",
+    "url": "https://www.shl.com/products/product-catalog/view/verify-general-ability-screen/",
+    "test_type": "A",
     "keywords": [
       "verify",
       "general",
@@ -39612,6 +40312,8 @@
     "canonical_name": "Verify - Inductive Reasoning (2014)",
     "normalized_name": "verify inductive reasoning 2014",
     "assessment_family": "Ability & Aptitude",
+    "url": "https://www.shl.com/products/product-catalog/view/verify-inductive-reasoning-2014/",
+    "test_type": "A",
     "keywords": [
       "verify",
       "inductive",
@@ -39894,6 +40596,8 @@
     "canonical_name": "Verify - Numerical Ability",
     "normalized_name": "verify numerical ability",
     "assessment_family": "Ability & Aptitude",
+    "url": "https://www.shl.com/products/product-catalog/view/verify-numerical-ability/",
+    "test_type": "A",
     "keywords": [
       "verify",
       "numerical",
@@ -40182,6 +40886,8 @@
     "canonical_name": "Verify - Technical Checking - Next Generation",
     "normalized_name": "verify technical checking next generation",
     "assessment_family": "Ability & Aptitude",
+    "url": "https://www.shl.com/products/product-catalog/view/verify-technical-checking-next-generation/",
+    "test_type": "A",
     "keywords": [
       "verify",
       "technical",
@@ -40348,6 +41054,8 @@
     "canonical_name": "Verify - Verbal Ability - Next Generation",
     "normalized_name": "verify verbal ability next generation",
     "assessment_family": "Ability & Aptitude",
+    "url": "https://www.shl.com/products/product-catalog/view/verify-verbal-ability-next-generation/",
+    "test_type": "A",
     "keywords": [
       "verify",
       "verbal",
@@ -40516,6 +41224,8 @@
     "canonical_name": "Verify - Working with Information",
     "normalized_name": "verify working with information",
     "assessment_family": "Ability & Aptitude",
+    "url": "https://www.shl.com/products/product-catalog/view/verify-working-with-information/",
+    "test_type": "A",
     "keywords": [
       "verify",
       "working",
@@ -40637,6 +41347,8 @@
     "canonical_name": "Verify G+ - Ability Test Report",
     "normalized_name": "verify g ability test report",
     "assessment_family": "Ability & Aptitude",
+    "url": "https://www.shl.com/products/product-catalog/view/verify-g-ability-test-report/",
+    "test_type": "A",
     "keywords": [
       "verify",
       "ability",
@@ -40704,6 +41416,8 @@
     "canonical_name": "Verify G+ - Candidate Report",
     "normalized_name": "verify g candidate report",
     "assessment_family": "Ability & Aptitude",
+    "url": "https://www.shl.com/products/product-catalog/view/verify-g-candidate-report/",
+    "test_type": "A",
     "keywords": [
       "verify",
       "candidate",
@@ -40789,6 +41503,8 @@
     "canonical_name": "Verify Interactive Ability Report",
     "normalized_name": "verify interactive ability report",
     "assessment_family": "Ability & Aptitude",
+    "url": "https://www.shl.com/products/product-catalog/view/verify-interactive-ability-report/",
+    "test_type": "A",
     "keywords": [
       "verify",
       "interactive",
@@ -40821,6 +41537,8 @@
     "canonical_name": "Verify Interactive G+ Candidate Report",
     "normalized_name": "verify interactive g candidate report",
     "assessment_family": "Ability & Aptitude",
+    "url": "https://www.shl.com/products/product-catalog/view/verify-interactive-g-candidate-report/",
+    "test_type": "A",
     "keywords": [
       "verify",
       "interactive",
@@ -40856,6 +41574,8 @@
     "canonical_name": "Verify Interactive G+ Report",
     "normalized_name": "verify interactive g report",
     "assessment_family": "Ability & Aptitude",
+    "url": "https://www.shl.com/products/product-catalog/view/verify-interactive-g-report/",
+    "test_type": "A",
     "keywords": [
       "verify",
       "interactive",
@@ -40910,6 +41630,8 @@
     "canonical_name": "Verify Interactive Process Monitoring",
     "normalized_name": "verify interactive process monitoring",
     "assessment_family": "Ability & Aptitude",
+    "url": "https://www.shl.com/products/product-catalog/view/verify-interactive-process-monitoring/",
+    "test_type": "A",
     "keywords": [
       "verify",
       "interactive",
@@ -41050,6 +41772,8 @@
     "canonical_name": "Virtual Assessment and Development Centers",
     "normalized_name": "virtual assessment and development centers",
     "assessment_family": "Personality & Behavior",
+    "url": "https://www.shl.com/products/product-catalog/view/virtual-assessment-and-development-centers/",
+    "test_type": "P",
     "keywords": [
       "virtual",
       "assessment",
@@ -41357,6 +42081,8 @@
     "canonical_name": "Visual Basic for Applications (New)",
     "normalized_name": "visual basic for applications new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/visual-basic-for-applications-new/",
+    "test_type": "K",
     "keywords": [
       "visual",
       "basic",
@@ -41432,6 +42158,8 @@
     "canonical_name": "Visual Comparison - UK",
     "normalized_name": "visual comparison uk",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/visual-comparison-uk/",
+    "test_type": "K",
     "keywords": [
       "visual",
       "comparison",
@@ -41514,6 +42242,8 @@
     "canonical_name": "Visual Comparison - US",
     "normalized_name": "visual comparison us",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/visual-comparison-us/",
+    "test_type": "K",
     "keywords": [
       "visual",
       "comparison",
@@ -41596,6 +42326,8 @@
     "canonical_name": "VLSI and Embedded Systems (New)",
     "normalized_name": "vlsi and embedded systems new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/vlsi-and-embedded-systems-new/",
+    "test_type": "K",
     "keywords": [
       "vlsi",
       "embedded",
@@ -41661,6 +42393,8 @@
     "canonical_name": "What Is The Value - US",
     "normalized_name": "what is the value us",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/what-is-the-value-us/",
+    "test_type": "K",
     "keywords": [
       "value",
       "us",
@@ -41728,6 +42462,8 @@
     "canonical_name": "Workplace Administration Skills (New)",
     "normalized_name": "workplace administration skills new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/workplace-administration-skills-new/",
+    "test_type": "K",
     "keywords": [
       "workplace",
       "administration",
@@ -41824,6 +42560,8 @@
     "canonical_name": "Workplace Health and Safety (New)",
     "normalized_name": "workplace health and safety new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/workplace-health-and-safety-new/",
+    "test_type": "K",
     "keywords": [
       "workplace",
       "health",
@@ -41917,6 +42655,8 @@
     "canonical_name": "WriteX - Email Writing (Customer Service) (New)",
     "normalized_name": "writex email writing customer service new",
     "assessment_family": "Simulations",
+    "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-customer-service-new/",
+    "test_type": "S",
     "keywords": [
       "writex",
       "email",
@@ -42071,6 +42811,8 @@
     "canonical_name": "WriteX - Email Writing (Managerial) (New)",
     "normalized_name": "writex email writing managerial new",
     "assessment_family": "Simulations",
+    "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-managerial-new/",
+    "test_type": "S",
     "keywords": [
       "writex",
       "email",
@@ -42223,6 +42965,8 @@
     "canonical_name": "WriteX - Email Writing (Sales) (New)",
     "normalized_name": "writex email writing sales new",
     "assessment_family": "Biodata & Situational Judgment",
+    "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-sales-new/",
+    "test_type": "BS",
     "keywords": [
       "writex",
       "email",
@@ -42381,6 +43125,8 @@
     "canonical_name": "Written English v1",
     "normalized_name": "written english v1",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/written-english-v1/",
+    "test_type": "K",
     "keywords": [
       "written",
       "english",
@@ -42503,6 +43249,8 @@
     "canonical_name": "Written Spanish",
     "normalized_name": "written spanish",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/written-spanish/",
+    "test_type": "K",
     "keywords": [
       "written",
       "spanish",
@@ -42609,6 +43357,8 @@
     "canonical_name": "Zabbix (New)",
     "normalized_name": "zabbix new",
     "assessment_family": "Knowledge & Skills",
+    "url": "https://www.shl.com/products/product-catalog/view/zabbix-new/",
+    "test_type": "K",
     "keywords": [
       "zabbix",
       "new",
@@ -42677,6 +43427,8 @@
     "canonical_name": "360 Digital Report",
     "normalized_name": "360 digital report",
     "assessment_family": "Development & 360",
+    "url": "https://www.shl.com/products/product-catalog/view/360-digital-report/",
+    "test_type": "D",
     "keywords": [
       "360",
       "digital",
@@ -42822,6 +43574,8 @@
     "canonical_name": "360° Multi-Rater Feedback System (MFS)",
     "normalized_name": "360 multi rater feedback system mfs",
     "assessment_family": "Development & 360",
+    "url": "https://www.shl.com/products/product-catalog/view/360-multi-rater-feedback-system-mfs/",
+    "test_type": "DP",
     "keywords": [
       "360",
       "multi",

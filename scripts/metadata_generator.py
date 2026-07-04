@@ -8,6 +8,28 @@ Reads data/processed/catalog_clean.json (read-only) and generates a
 retrieval-optimized metadata layer for BM25 / FAISS at:
     data/processed/catalog_metadata.json
 
+Output contract fields (added)
+-------------------------------
+Every generated record now also carries:
+
+  * url        — copied verbatim from catalog_clean.json's ``link`` field.
+                 This is the exact value app.routes serializes back to the
+                 client as RecommendationItem.url — it is never invented,
+                 rewritten, or reconstructed anywhere downstream.
+  * test_type  — derived from catalog_clean.json's ``keys`` field (the
+                 SHL category list, e.g. "Knowledge & Skills") by mapping
+                 each category to its single-letter SHL test-type code
+                 (see CATEGORY_TO_TEST_TYPE_CODE) and joining all codes
+                 that apply, in SHL's canonical badge order
+                 (A, B, C, D, E, K, P, S). A record tagged both
+                 "Ability & Aptitude" and "Personality & Behavior"
+                 produces test_type "AP".
+
+Both fields are required (non-empty) for every record; generation fails
+loudly via MetadataValidationError if either is missing, rather than
+silently emitting a record the API layer would have to paper over with
+an empty string at serve time.
+
 Python 3.10.11
 """
 
@@ -76,6 +98,14 @@ class InvalidDurationError(MetadataValidationError):
     """Raised when duration_minutes is neither an integer nor None."""
 
 
+class MissingUrlError(MetadataValidationError):
+    """Raised when a record has no catalog URL ('link' in the source data)."""
+
+
+class MissingTestTypeError(MetadataValidationError):
+    """Raised when a record's 'keys' do not map to any known test-type code."""
+
+
 # --------------------------------------------------------------------------- #
 # Stop words
 # --------------------------------------------------------------------------- #
@@ -100,6 +130,32 @@ STOP_WORDS: frozenset[str] = frozenset(
 )
 
 # --------------------------------------------------------------------------- #
+# SHL test-type taxonomy
+# --------------------------------------------------------------------------- #
+
+# Maps each SHL catalog category (as it appears verbatim in a cleaned
+# record's 'keys' list) to its single-letter SHL test-type badge code.
+# This is SHL's own published taxonomy — every value observed across the
+# full 377-record catalog maps to exactly one of these eight categories;
+# there is no "unknown category" fallback by design, so a category added
+# to the source site that isn't in this table fails loudly (see
+# derive_test_type) rather than silently producing an incomplete code.
+CATEGORY_TO_TEST_TYPE_CODE: dict[str, str] = {
+    "Ability & Aptitude": "A",
+    "Biodata & Situational Judgment": "B",
+    "Competencies": "C",
+    "Development & 360": "D",
+    "Assessment Exercises": "E",
+    "Knowledge & Skills": "K",
+    "Personality & Behavior": "P",
+    "Simulations": "S",
+}
+
+# Canonical badge order used when a record maps to multiple categories,
+# matching the order SHL itself displays multi-letter badges in.
+_TEST_TYPE_CODE_ORDER: str = "ABCDEKPS"
+
+# --------------------------------------------------------------------------- #
 # Data containers
 # --------------------------------------------------------------------------- #
 
@@ -109,6 +165,8 @@ class MetadataRecord:
     canonical_name: str
     normalized_name: str
     assessment_family: str
+    url: str = ""
+    test_type: str = ""
     keywords: list[str] = field(default_factory=list)
     job_levels: list[str] = field(default_factory=list)
     languages: list[str] = field(default_factory=list)
@@ -172,6 +230,57 @@ def derive_assessment_family(keys: list[str]) -> str:
     if not keys:
         return ""
     return str(keys[0]).strip()
+
+
+def derive_test_type(keys: list[str], entity_id: str = "") -> str:
+    """Derive the SHL test-type code string from a record's category keys.
+
+    Maps every category in *keys* to its single-letter code via
+    CATEGORY_TO_TEST_TYPE_CODE, deduplicates, and joins the results in
+    SHL's canonical badge order (A, B, C, D, E, K, P, S) — e.g. a record
+    tagged ["Personality & Behavior", "Ability & Aptitude"] produces "AP",
+    not "PA", regardless of the input order.
+
+    Parameters
+    ----------
+    keys:
+        The record's category list (catalog_clean.json's 'keys' field).
+    entity_id:
+        Used only to produce a more useful error message.
+
+    Returns
+    -------
+    str
+        Concatenated single-letter test-type codes, e.g. "K" or "AP".
+
+    Raises
+    ------
+    MissingTestTypeError
+        If *keys* is empty, or contains a category not present in
+        CATEGORY_TO_TEST_TYPE_CODE (an unrecognized/new SHL category —
+        fails loudly rather than silently dropping it).
+    """
+    if not keys:
+        raise MissingTestTypeError(
+            f"Cannot derive test_type for entity_id {entity_id!r}: "
+            "'keys' is empty."
+        )
+
+    codes: set[str] = set()
+    for key in keys:
+        normalized_key = str(key).strip()
+        code = CATEGORY_TO_TEST_TYPE_CODE.get(normalized_key)
+        if code is None:
+            raise MissingTestTypeError(
+                f"Cannot derive test_type for entity_id {entity_id!r}: "
+                f"unrecognized category {normalized_key!r} is not in "
+                "CATEGORY_TO_TEST_TYPE_CODE. Add it to the taxonomy table "
+                "if SHL has introduced a new category."
+            )
+        codes.add(code)
+
+    ordered_codes = [c for c in _TEST_TYPE_CODE_ORDER if c in codes]
+    return "".join(ordered_codes)
 
 
 def extract_keywords(searchable_text: str) -> list[str]:
@@ -241,6 +350,7 @@ def build_metadata_record(record: dict[str, Any]) -> MetadataRecord:
     entity_id = str(record.get("entity_id", "")).strip()
     canonical_name = str(record.get("name", "")).strip()
     searchable_text = str(record.get("search_text", "")).strip()
+    url = str(record.get("link", "")).strip()
 
     job_levels = list(record.get("job_levels") or [])
     languages = list(record.get("languages") or [])
@@ -252,6 +362,7 @@ def build_metadata_record(record: dict[str, Any]) -> MetadataRecord:
 
     normalized_name = normalize_name(canonical_name)
     assessment_family = derive_assessment_family(keys)
+    test_type = derive_test_type(keys, entity_id=entity_id)
     keywords = extract_keywords(searchable_text)
 
     filter_tokens = build_filter_tokens(
@@ -268,6 +379,8 @@ def build_metadata_record(record: dict[str, Any]) -> MetadataRecord:
         canonical_name=canonical_name,
         normalized_name=normalized_name,
         assessment_family=assessment_family,
+        url=url,
+        test_type=test_type,
         keywords=keywords,
         job_levels=job_levels,
         languages=languages,
@@ -304,6 +417,23 @@ def validate_record(
     if not metadata.searchable_text:
         raise EmptySearchableTextError(
             f"Empty searchable_text for entity_id: {metadata.entity_id!r}"
+        )
+
+    if not metadata.url:
+        raise MissingUrlError(
+            f"Empty url (catalog 'link') for entity_id: {metadata.entity_id!r}. "
+            "Every recommendation must carry a real, scraped catalog URL — "
+            "never fabricated at serve time."
+        )
+
+    if not metadata.test_type:
+        # Should be unreachable: derive_test_type() already raises
+        # MissingTestTypeError before a record with no valid test_type
+        # ever reaches this point. Kept as a defense-in-depth check in
+        # case build_metadata_record is ever called with a pre-built
+        # MetadataRecord that bypassed derive_test_type.
+        raise MissingTestTypeError(
+            f"Empty test_type for entity_id: {metadata.entity_id!r}."
         )
 
     if not isinstance(metadata.adaptive, bool):

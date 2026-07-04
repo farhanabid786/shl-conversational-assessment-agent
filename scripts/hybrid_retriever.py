@@ -15,6 +15,15 @@ This module is RETRIEVAL ONLY.  It does NOT perform:
   - Clarification logic
   - Conversation management
 
+No lazy loading
+----------------
+`resources.model` (the SentenceTransformer) is loaded eagerly, once, by
+scripts.retriever_loader.load_retriever_resources() during application
+startup — never here, never on first request. This module therefore
+requires the model to already be present and simply validates that
+invariant; there is no first-use loading branch, no locking, and no
+"which thread downloads it" concern.
+
 Outputs:
   HybridCandidates containing SemanticCandidate and LexicalCandidate lists
   together with an insertion-ordered, deduplicated merged_ids list.
@@ -31,22 +40,12 @@ from typing import Any
 
 import numpy as np
 
-# --------------------------------------------------------------------------- #
-# Logging
-# --------------------------------------------------------------------------- #
-
-# logging.basicConfig(
-#     level=logging.INFO,
-#     format="%(asctime)s | %(levelname)-8s | %(name)s | %(message)s",
-# )
-# logger = logging.getLogger("hybrid_retriever")
-
 logger = logging.getLogger(__name__)
+
 # --------------------------------------------------------------------------- #
 # Constants
 # --------------------------------------------------------------------------- #
 
-MODEL_NAME: str = "sentence-transformers/all-MiniLM-L6-v2"
 MAX_QUERY_LENGTH: int = 5_000
 
 # --------------------------------------------------------------------------- #
@@ -68,6 +67,19 @@ class EncodingError(HybridRetrieverError):
 
 class RetrievalError(HybridRetrieverError):
     """Raised when FAISS or BM25 retrieval fails."""
+
+
+class ModelNotLoadedError(HybridRetrieverError):
+    """Raised if resources.model is missing at query time.
+
+    This should never happen in normal operation: the model is loaded
+    eagerly at startup by retriever_loader before the process is
+    considered ready to serve traffic. If this fires, it indicates a
+    startup/wiring bug (e.g. resources constructed by hand without going
+    through load_retriever_resources), not a transient/retryable
+    condition — callers should treat it as a 503-class dependency failure
+    the same as a startup model-load failure.
+    """
 
 
 # --------------------------------------------------------------------------- #
@@ -231,15 +243,9 @@ def tokenize_query(query: str) -> list[str]:
 def _build_entity_lookup(mapping: list[dict[str, Any]]) -> dict[str, str]:
     """Build a dict mapping entity_id -> canonical_name from the mapping list.
 
-    Parameters
-    ----------
-    mapping:
-        The ``resources.mapping`` list from RetrieverResources.
-
-    Returns
-    -------
-    dict[str, str]
-        Maps each entity_id to its canonical_name.
+    Fallback path only — normally resources.canonical_lookup (built once
+    by retriever_loader at startup) is used instead. Retained here for
+    lightweight/stub resources (e.g. unit tests) that don't carry the cache.
     """
     lookup: dict[str, str] = {}
     for entry in mapping:
@@ -253,15 +259,8 @@ def _build_entity_lookup(mapping: list[dict[str, Any]]) -> dict[str, str]:
 def _build_row_to_entity(mapping: list[dict[str, Any]]) -> dict[int, dict[str, str]]:
     """Build a dict mapping FAISS row index -> {entity_id, canonical_name}.
 
-    Parameters
-    ----------
-    mapping:
-        The ``resources.mapping`` list from RetrieverResources.
-
-    Returns
-    -------
-    dict[int, dict[str, str]]
-        Keyed by integer row, value carries entity_id and canonical_name.
+    Fallback path only — normally resources.row_map (built once by
+    retriever_loader at startup) is used instead.
     """
     row_map: dict[int, dict[str, str]] = {}
     for entry in mapping:
@@ -274,11 +273,13 @@ def _build_row_to_entity(mapping: list[dict[str, Any]]) -> dict[int, dict[str, s
 
 
 def _get_model(resources: Any) -> Any:
-    """Return a SentenceTransformer model from resources or load it fresh.
+    """Return the eagerly-loaded SentenceTransformer from resources.
 
-    Checks for ``resources.model`` first (forward-compatible with a future
-    RetrieverResources that exposes the model).  Falls back to loading
-    MODEL_NAME from sentence-transformers if the attribute is absent or None.
+    The model is loaded exactly once, at startup, by
+    scripts.retriever_loader.load_retriever_resources(). This function
+    performs no loading of any kind — it only validates the invariant
+    that the model is already present, so a wiring mistake fails loudly
+    and immediately rather than degrading into a slow first request.
 
     Parameters
     ----------
@@ -288,41 +289,35 @@ def _get_model(resources: Any) -> Any:
     Returns
     -------
     SentenceTransformer
-        A ready-to-encode model instance.
+        The pre-loaded, ready-to-encode model instance.
 
     Raises
     ------
-    ValidationError
-        If the model cannot be loaded.
+    ModelNotLoadedError
+        If resources.model is missing or None. Treat as a 503-class
+        dependency failure — the application did not start correctly.
     """
     model = getattr(resources, "model", None)
-    if model is not None:
-        logger.debug("Using model from RetrieverResources.")
-        return model
-
-    logger.info(
-        "resources.model not available — loading %s directly.", MODEL_NAME
-    )
-    try:
-        from sentence_transformers import SentenceTransformer  # type: ignore[import]
-
-        return SentenceTransformer(MODEL_NAME)
-    except ImportError as exc:
-        raise ValidationError(
-            "sentence-transformers is not installed. "
-            "Install it with `pip install sentence-transformers`."
-        ) from exc
-    except Exception as exc:  # noqa: BLE001
-        raise ValidationError(
-            f"Failed to load SentenceTransformer model {MODEL_NAME!r}: {exc}"
-        ) from exc
+    if model is None:
+        raise ModelNotLoadedError(
+            "resources.model is not loaded. The embedding model must be "
+            "loaded eagerly at startup by "
+            "scripts.retriever_loader.load_retriever_resources() — "
+            "hybrid_retriever never loads it lazily. This indicates the "
+            "application started with an incomplete RetrieverResources "
+            "instance."
+        )
+    return model
 
 
 def _get_entity_lookup(resources: Any) -> dict[str, str]:
-    """Return an entity_id -> canonical_name lookup from resources or derived.
+    """Return the entity_id -> canonical_name lookup, built exactly once.
 
-    Checks for ``resources.entity_lookup`` first (forward-compatible).
-    Falls back to deriving the lookup from ``resources.mapping``.
+    Prefers ``resources.canonical_lookup`` (the permanent cache built once
+    by retriever_loader at startup). Falls back to deriving it from
+    ``resources.mapping`` only for lightweight/stub resources (e.g. tests)
+    that don't carry the cache — for a real RetrieverResources this
+    fallback never runs.
 
     Parameters
     ----------
@@ -334,12 +329,12 @@ def _get_entity_lookup(resources: Any) -> dict[str, str]:
     dict[str, str]
         Maps entity_id -> canonical_name.
     """
-    lookup = getattr(resources, "entity_lookup", None)
-    if isinstance(lookup, dict) and lookup:
-        logger.debug("Using entity_lookup from RetrieverResources.")
-        return lookup
+    canonical_lookup = getattr(resources, "canonical_lookup", None)
+    if isinstance(canonical_lookup, dict) and canonical_lookup:
+        logger.debug("Using canonical_lookup cached on RetrieverResources.")
+        return canonical_lookup
 
-    logger.debug("Deriving entity_lookup from resources.mapping.")
+    logger.debug("Deriving entity_lookup from resources.mapping (no cache present).")
     return _build_entity_lookup(resources.mapping)
 
 
@@ -349,7 +344,7 @@ def _get_entity_lookup(resources: Any) -> dict[str, str]:
 
 
 def _validate_resources(resources: Any) -> None:
-    """Assert that all required retriever artefacts are present and usable.
+    """Assert that all required retrieval artefacts are present and usable.
 
     Parameters
     ----------
@@ -360,6 +355,8 @@ def _validate_resources(resources: Any) -> None:
     ------
     ValidationError
         If any required attribute is missing or None.
+    ModelNotLoadedError
+        If resources.model is missing (see _get_model).
     """
     if resources is None:
         raise ValidationError("resources must not be None.")
@@ -382,6 +379,10 @@ def _validate_resources(resources: Any) -> None:
         raise ValidationError(
             "resources.entity_ids is empty — BM25 corpus has no documents."
         )
+
+    # Fail loudly here rather than deep inside _encode_query if the model
+    # was somehow never loaded.
+    _get_model(resources)
 
     logger.debug("Resource validation passed.")
 
@@ -455,7 +456,7 @@ def _encode_query(model: Any, query: str) -> np.ndarray:
     Parameters
     ----------
     model:
-        A loaded SentenceTransformer (or compatible) model.
+        The eagerly-loaded SentenceTransformer (or compatible) model.
     query:
         A cleaned query string.
 
@@ -719,7 +720,8 @@ def retrieve(
 
     Performs:
       1. Query cleaning and tokenisation.
-      2. Resource and parameter validation.
+      2. Resource and parameter validation (including confirming the
+         embedding model was loaded eagerly at startup).
       3. Semantic retrieval via FAISS IndexFlatIP.
       4. Lexical retrieval via BM25Okapi.
       5. Insertion-ordered, deduplicated merge of result ids.
@@ -732,7 +734,8 @@ def retrieve(
     query:
         Raw natural-language query string supplied by the caller.
     resources:
-        A loaded RetrieverResources instance (from retriever_loader.py).
+        A loaded RetrieverResources instance (from retriever_loader.py),
+        with its embedding model already loaded eagerly at startup.
     semantic_top_k:
         Number of candidates to retrieve from FAISS.  Must be > 0.
     lexical_top_k:
@@ -747,6 +750,8 @@ def retrieve(
     ------
     ValidationError
         If the query, resources, or parameters fail validation.
+    ModelNotLoadedError
+        If resources.model is unexpectedly absent (startup/wiring bug).
     EncodingError
         If query encoding fails.
     RetrievalError
@@ -758,7 +763,7 @@ def retrieve(
     cleaned: str = clean_query(query)
     tokens: list[str] = tokenize_query(cleaned)
 
-    logger.info(
+    logger.debug(
         "retrieve() called | query=%r | tokens=%d | "
         "semantic_top_k=%d | lexical_top_k=%d",
         cleaned,
@@ -768,17 +773,25 @@ def retrieve(
     )
 
     # ------------------------------------------------------------------ #
-    # 2.  Validation
+    # 2.  Validation (also confirms the eagerly-loaded model is present)
     # ------------------------------------------------------------------ #
     _validate_resources(resources)
     _validate_top_k(semantic_top_k, lexical_top_k)
 
     # ------------------------------------------------------------------ #
-    # 3.  Resolve model and entity_lookup
+    # 3.  Resolve model and lookups — no loading happens here, only
+    #     reuse of what retriever_loader already built at startup.
     # ------------------------------------------------------------------ #
     model: Any = _get_model(resources)
     entity_lookup: dict[str, str] = _get_entity_lookup(resources)
-    row_map: dict[int, dict[str, str]] = _build_row_to_entity(resources.mapping)
+
+    # row_map is built exactly once by retriever_loader at startup and
+    # cached permanently on resources.row_map — reuse it here instead of
+    # rebuilding it on every request. Fall back to a local build only for
+    # lightweight/stub resources that don't carry the cache (e.g. tests).
+    row_map: dict[int, dict[str, str]] = getattr(resources, "row_map", None) or (
+        _build_row_to_entity(resources.mapping)
+    )
 
     # ------------------------------------------------------------------ #
     # 4.  Encode query
