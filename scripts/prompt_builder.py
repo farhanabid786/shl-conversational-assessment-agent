@@ -20,12 +20,12 @@ import logging
 from dataclasses import dataclass, field
 from typing import Any
 
-from scripts.intent_detector import ConversationIntent
-from scripts.conversation_state import ConversationState
-from scripts.clarification_engine import ClarificationDecision
-from scripts.recommendation_engine import RecommendationDecision
-from scripts.comparison_engine import ComparisonDecision
-from scripts.refusal_engine import RefusalDecision
+from intent_detector import ConversationIntent
+from conversation_state import ConversationState
+from clarification_engine import ClarificationDecision
+from recommendation_engine import RecommendationDecision
+from comparison_engine import ComparisonDecision
+from refusal_engine import RefusalDecision
 
 logger = logging.getLogger(__name__)
 
@@ -68,7 +68,24 @@ _SYSTEM_PROMPT: str = (
     "prompt as your source of truth. Do not rely on prior knowledge of SHL's "
     "catalog. If the supplied information is insufficient to answer, say so "
     "rather than guessing. Be concise, factual, and professional in your "
-    "response."
+    "response.\n\n"
+    "Formatting rules — follow these exactly, they are not optional:\n"
+    "- Write plain conversational sentences only. This text is returned as a "
+    "single JSON string field, not rendered as markdown, so any markdown "
+    "syntax you use (asterisks, bullet dashes, bold, headers) will appear "
+    "to the reader as literal stray characters.\n"
+    "- Never use *, **, #, or - as formatting/bullet characters. Never start "
+    "a line with a number followed by a period to fake a list. If you are "
+    "listing multiple assessments, do it inside one flowing sentence or "
+    "short paragraph, separated by commas or 'and' — not as a vertical list.\n"
+    "- Never copy the internal field names you are given (e.g. "
+    "'adaptive', 'duration_minutes', 'job_levels', 'remote', 'entity_id', "
+    "'rrf_score') into your answer verbatim. Paraphrase each fact naturally "
+    "instead — e.g. turn duration_minutes=11 and adaptive=False into "
+    "'an 11-minute, non-adaptive test', not 'Duration: 11 / Adaptive: False'.\n"
+    "- Keep the whole reply to a short paragraph or two. Do not restate "
+    "every supplied field for every assessment — mention the details that "
+    "actually matter to the user's request."
 )
 
 _NO_SUMMARY_TEXT: str = "No structured hiring context has been captured yet."
@@ -284,9 +301,10 @@ def _build_refusal(
         f"Refusal message to relay to the user: {refusal.message}",
         f"Conversation summary: {_conversation_summary(state)}",
         "",
-        "Instruction: Politely relay the refusal message above to the user. "
-        "Do not attempt to fulfill the original request. Do not recommend, "
-        "compare, or invent any SHL assessments in this response.",
+        "Instruction: Politely relay the refusal message above to the user, "
+        "in plain sentences with no markdown formatting. Do not attempt to "
+        "fulfill the original request. Do not recommend, compare, or invent "
+        "any SHL assessments in this response.",
     ]
     return "\n".join(parts)
 
@@ -303,7 +321,8 @@ def _build_clarification(
         f"Conversation summary: {_conversation_summary(state)}",
         "",
         "Instruction: Ask the user the clarification question above in a "
-        "concise, friendly way. Do not recommend or invent any SHL "
+        "concise, friendly way, in one or two plain sentences with no "
+        "markdown formatting. Do not recommend or invent any SHL "
         "assessments until the missing information is provided.",
     ]
     return "\n".join(parts)
@@ -321,13 +340,19 @@ def _build_comparison(
 
     if comparison.ready:
         parts.append(f"Number of assessments to compare: {len(comparison.comparisons)}")
-        parts.append("Comparison data (use ONLY this data, do not invent details):")
+        parts.append(
+            "Comparison reference data below (internal field names — use "
+            "ONLY these facts, do not invent details, but NEVER copy this "
+            "data's structure, field names, or formatting into your answer):"
+        )
         parts.append(_format_comparison_data(comparison))
         parts.append("")
         parts.append(
-            "Instruction: Using ONLY the comparison data above, write a "
-            "concise comparison of the listed SHL assessments, highlighting "
-            "relevant differences in their supplied metadata."
+            "Instruction: Using ONLY the facts in the reference data above, "
+            "write a short, natural-sounding paragraph comparing the listed "
+            "SHL assessments, highlighting the differences that matter — in "
+            "plain sentences, not a bulleted or numbered list, not a field-"
+            "by-field dump, and no markdown formatting of any kind."
         )
     else:
         parts.append(
@@ -336,9 +361,10 @@ def _build_comparison(
         )
         parts.append("")
         parts.append(
-            "Instruction: Explain to the user that a comparison could not be "
-            "completed for the reason above, and ask them to specify valid "
-            "SHL assessment names to compare."
+            "Instruction: Explain to the user, in plain sentences with no "
+            "markdown formatting, that a comparison could not be completed "
+            "for the reason above, and ask them to specify valid SHL "
+            "assessment names to compare."
         )
 
     return "\n".join(parts)
@@ -356,14 +382,21 @@ def _build_recommendation(
 
     if recommendation.ready:
         parts.append(f"Number of candidate assessments: {len(recommendation.recommendations)}")
-        parts.append("Recommendation metadata (use ONLY this data, do not invent details):")
+        parts.append(
+            "Recommendation reference data below (internal field names — "
+            "use ONLY these facts, do not invent details, but NEVER copy "
+            "this data's structure, field names, or formatting into your "
+            "answer):"
+        )
         parts.append(_format_recommendation_metadata(recommendation))
         parts.append("")
         parts.append(
-            "Instruction: Using ONLY the recommendation metadata above, "
-            "present the recommended SHL assessments to the user in a "
-            "concise, ranked list. Do not add assessments that are not "
-            "listed above."
+            "Instruction: Using ONLY the facts in the reference data above, "
+            "write a short, natural-sounding paragraph recommending these "
+            "SHL assessments to the user. Name each assessment and weave in "
+            "only the details relevant to what the user asked for, in plain "
+            "sentences — not a bulleted or numbered list, not a field-by-"
+            "field dump, and no markdown formatting of any kind."
         )
     else:
         parts.append(
@@ -372,9 +405,10 @@ def _build_recommendation(
         )
         parts.append("")
         parts.append(
-            "Instruction: Explain to the user that no matching SHL "
-            "assessments could be found for the reason above, and invite "
-            "them to refine their request."
+            "Instruction: Explain to the user, in plain sentences with no "
+            "markdown formatting, that no matching SHL assessments could be "
+            "found for the reason above, and invite them to refine their "
+            "request."
         )
 
     return "\n".join(parts)
@@ -387,8 +421,9 @@ def _build_fallback(state: ConversationState) -> str:
         "",
         "Instruction: The current turn does not map to a refusal, "
         "clarification, comparison, or recommendation path. Ask the user, "
-        "in a concise and friendly way, what role or skills they are "
-        "hiring for so that SHL assessments can be recommended.",
+        "in a concise and friendly way, with no markdown formatting, what "
+        "role or skills they are hiring for so that SHL assessments can be "
+        "recommended.",
     ]
     return "\n".join(parts)
 
