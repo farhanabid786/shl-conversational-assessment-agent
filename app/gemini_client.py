@@ -81,17 +81,35 @@ class GeminiClient:
         self._settings = settings
         self._api_key: str = settings.GEMINI_API_KEY
         self._model_name: str = settings.GEMINI_MODEL
+        self._timeout_seconds: float = settings.GEMINI_TIMEOUT_SECONDS
         self._client: "Client"
 
         try:
-            self._client = genai.Client(api_key=self._api_key)
+            self._client = genai.Client(
+                api_key=self._api_key,
+                # google-genai's HttpOptions.timeout is in MILLISECONDS. Set
+                # here, once, at client construction — this is what makes
+                # config.GEMINI_TIMEOUT_SECONDS actually take effect. Without
+                # this, the SDK has been observed to pass timeout=None to
+                # the underlying httpx client (see googleapis/python-genai
+                # #911, #4031), which disables the timeout entirely and lets
+                # a stalled request hang well past the evaluator's 30s
+                # per-call limit instead of failing fast into a 503.
+                http_options=types.HttpOptions(
+                    timeout=int(self._timeout_seconds * 1000),
+                ),
+            )
         except Exception as exc:  # noqa: BLE001
             logger.error("Failed to configure Gemini client")
             raise GeminiConfigurationError(
                 "Failed to configure Gemini client"
             ) from exc
 
-        logger.info("GeminiClient initialized (model=%s)", self._model_name)
+        logger.info(
+            "GeminiClient initialized (model=%s, timeout=%.1fs)",
+            self._model_name,
+            self._timeout_seconds,
+        )
 
     # ------------------------------------------------------------------- #
     # Public API
@@ -126,8 +144,20 @@ class GeminiClient:
                 ),
             )
         except Exception as exc:  # noqa: BLE001
-            logger.error("Gemini generation request failed")
-            raise GeminiGenerationError("Gemini generation request failed") from exc
+            # Covers both outright API errors and the request exceeding
+            # self._timeout_seconds (configured on the client in
+            # __init__). Either way this is a dependency-availability
+            # failure from the caller's perspective — app.pipeline maps
+            # GeminiClientError to a 503, not a 500.
+            logger.error(
+                "Gemini generation request failed or exceeded the %.1fs "
+                "timeout budget.",
+                self._timeout_seconds,
+            )
+            raise GeminiGenerationError(
+                f"Gemini generation request failed or timed out after "
+                f"{self._timeout_seconds:.1f}s"
+            ) from exc
 
         text = getattr(response, "text", None)
         if not text or not text.strip():
