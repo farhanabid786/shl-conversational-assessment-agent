@@ -20,12 +20,12 @@ import logging
 from dataclasses import dataclass, field
 from typing import Any
 
-from intent_detector import ConversationIntent
-from conversation_state import ConversationState
-from clarification_engine import ClarificationDecision
-from recommendation_engine import RecommendationDecision
-from comparison_engine import ComparisonDecision
-from refusal_engine import RefusalDecision
+from scripts.intent_detector import ConversationIntent
+from scripts.conversation_state import ConversationState
+from scripts.clarification_engine import ClarificationDecision
+from scripts.recommendation_engine import RecommendationDecision
+from scripts.comparison_engine import ComparisonDecision
+from scripts.refusal_engine import RefusalDecision
 
 logger = logging.getLogger(__name__)
 
